@@ -69,9 +69,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Intake (week 1)
 -uitwerken voor de kick-off werkgroep - begin van de eerste week-
 
-**Je startniveau:** -kies uit zwart, rood óf blauw-
+**Je startniveau:** Ik denk dat ik een beetje tussen blauw en rood in zit. Voor opdrachten begin ik toch liever bij blauw, zodat ik altijd nog naar rood zou kunnen doorstromen als ik merk dat ik een stapje hoger zou kunnen. 
 
-**Je focus:** -kies uit responsive óf surface plane-
+**Je focus:** Ik wil mijn ontwerp graag helemaal responsive maken.
 
 **Je opdracht:** -link naar de website die je gaat namaken óf de naam van je eigen ontwerp-
 
