@@ -1,5 +1,5 @@
 # Procesverslag
-**Auteur:** -jouw naam-
+**Auteur:** Anniek Baarse
 
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
 
@@ -67,18 +67,17 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Intake (week 1)
--uitwerken voor de kick-off werkgroep - begin van de eerste week-
 
-**Je startniveau:** -kies uit zwart, rood óf blauw-
+**Je startniveau:** Mijn startniveau zit tussen blauw en rood in denk ik. Toch begin ik liever bij blauw, zodat ik altijd nog kan doorstromen naar rood als ik merk dat dat nodig is.
 
-**Je focus:** -kies uit responsive óf surface plane-
+**Je focus:** Ik ga mij focussen op het helemaal responsive maken van mijn website.
 
-**Je opdracht:** -link naar de website die je gaat namaken óf de naam van je eigen ontwerp-
+**Je opdracht:** https://www.zara.com/nl/
 
 **Screenshot(s) van de eerste pagina (small screen):**
 
-<img src="images/dummy-plaatje.svg" width="375px" alt="omschrijving van de pagina">
+<img src="images/Homepagina-Zara.PNG" width="375px" alt="Dit is de homepagina van de Zara, ook wel de landingspagina genoemd. Je ziet linksbovenin een hamburgermenu, rechtsbovenin een zoekfunctie en een winkelmandje. In het midden staat een jonge dame in een body op de achtergrond. Er staat een tekst over haar heen over producten die nieuw binnen zijn, met een 'bekijkknop'. Rechts in het midden zijn stipjes te zien, hierdoor weet je dat je kan scrollen op de pagina. Onderin het scherm is een navigatiebalk te zien, waarbij je kan navigeren naar de Heren-, Dames-, Kinderen- en Home-pagina.">
 
 **Screenshot(s) van de tweede pagina (small screen):**
 
-<img src="images/dummy-plaatje.svg" width="375px" alt="omschrijving van de pagina">
+<img src="images/Detailpagina-Zara.PNG" width="375px" alt="Dit is een detailpagina van de Zara, indien je hebt geklikt op de Home-pagina en vervolgens  Woonkamer | Decor hebt aangeklikt. Je ziet ook hier weer linksbovenin een hamburgermenu, rechtsbovenin een zoekfunctie en een winkelmandje. Bovenin in het midden zie je staan op welke pagina je zit (Woonkamer | Decor). Net daaronder zie je alle filters die deze pagina heeft en daaronder staan de must haves. Je ziet hier een afbeelding van een product, bijvoorbeeld een tapijt met vintage effect of een vaas met contrast, met daaronder de titel van het product en de prijs.">
