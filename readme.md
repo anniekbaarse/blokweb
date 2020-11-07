@@ -77,8 +77,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Screenshot(s) van de eerste pagina (small screen):**
 
-<img src="images/Homepagina Zara.PNG" width="375px" alt="Dit is de homepagina van de Zara. Je ziet midden in het scherm een knop naar producten die nieuw binnen zijn. Onderin zie je de menubalk, waardoor je naar de heren-, dames-, kinderen- en home-afdeling kan navigeren. Verder zie je links bovenin een hamburgermenu en rechtsbovenin een zoekoptie en een winkelmandje.">
+<img src="images/Homepagina-Zara.PNG" width="375px" alt="Dit is de homepagina van de Zara. Je ziet midden in het scherm een knop naar producten die nieuw binnen zijn. Onderin zie je de menubalk, waardoor je naar de heren-, dames-, kinderen- en home-afdeling kan navigeren. Verder zie je links bovenin een hamburgermenu en rechtsbovenin een zoekoptie en een winkelmandje.">
 
 **Screenshot(s) van de tweede pagina (small screen):**
 
-<img src="images/Detailpagina Zara.PNG" width="375px" alt="Dit is een pagina van de Zara, die je ziet, indoen je hebt geklikt op Home-afdeling. Hier zul je allerlei spullen voor in huis kunnen vinden, in plaats van kleding. Je ziet bovenin op welke pagina je specifiek zit, met daaronder een navigatiebalk met alle filteropties die er voor deze pagina zijn. Daaronder zijn de must haves te zien, van een tapijt, tot een vaas en nog veel meer als je naar beneden door scrollt.">
+<img src="images/Detailpagina-Zara.PNG" width="375px" alt="Dit is een pagina van de Zara, die je ziet, indoen je hebt geklikt op Home-afdeling. Hier zul je allerlei spullen voor in huis kunnen vinden, in plaats van kleding. Je ziet bovenin op welke pagina je specifiek zit, met daaronder een navigatiebalk met alle filteropties die er voor deze pagina zijn. Daaronder zijn de must haves te zien, van een tapijt, tot een vaas en nog veel meer als je naar beneden door scrollt.">
