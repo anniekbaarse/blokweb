@@ -1,5 +1,5 @@
 # Procesverslag
-**Auteur:** Anniek Baarse
+**Auteur:** -jouw naam-
 
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet). Nb. de standaardstructuur en de spartaanse opmaak zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
 
@@ -69,16 +69,16 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 ## Intake (week 1)
 -uitwerken voor de kick-off werkgroep - begin van de eerste week-
 
-**Je startniveau:** Ik denk dat ik een beetje tussen blauw en rood in zit. Voor opdrachten begin ik toch liever bij blauw, zodat ik altijd nog naar rood zou kunnen doorstromen als ik merk dat ik een stapje hoger zou kunnen. 
+**Je startniveau:** -kies uit zwart, rood óf blauw-
 
-**Je focus:** Ik wil mijn ontwerp graag helemaal responsive maken.
+**Je focus:** -kies uit responsive óf surface plane-
 
-**Je opdracht:** https://www.zara.com/nl/
+**Je opdracht:** -link naar de website die je gaat namaken óf de naam van je eigen ontwerp-
 
 **Screenshot(s) van de eerste pagina (small screen):**
 
-<img src="images/Homepagina-Zara.PNG" width="375px" alt="Dit is de homepagina van de Zara. Je ziet midden in het scherm een knop naar producten die nieuw binnen zijn. Onderin zie je de menubalk, waardoor je naar de heren-, dames-, kinderen- en home-afdeling kan navigeren. Verder zie je links bovenin een hamburgermenu en rechtsbovenin een zoekoptie en een winkelmandje.">
+<img src="images/dummy-plaatje.svg" width="375px" alt="omschrijving van de pagina">
 
 **Screenshot(s) van de tweede pagina (small screen):**
 
-<img src="images/Detailpagina-Zara.PNG" width="375px" alt="Dit is een pagina van de Zara, die je ziet, indoen je hebt geklikt op Home-afdeling. Hier zul je allerlei spullen voor in huis kunnen vinden, in plaats van kleding. Je ziet bovenin op welke pagina je specifiek zit, met daaronder een navigatiebalk met alle filteropties die er voor deze pagina zijn. Daaronder zijn de must haves te zien, van een tapijt, tot een vaas en nog veel meer als je naar beneden door scrollt.">
+<img src="images/dummy-plaatje.svg" width="375px" alt="omschrijving van de pagina">
