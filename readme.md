@@ -72,12 +72,12 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 **Je focus:** Ik ga mij focussen op het helemaal responsive maken van mijn website.
 
-**Je opdracht:** https://www.zara.com/nl/
+**Je opdracht:** https://www.linda.nl
 
 **Screenshot(s) van de eerste pagina (small screen):**
 
-<img src="images/Homepagina-Zara.PNG" width="375px" alt="Dit is de homepagina van de Zara, ook wel de landingspagina genoemd. Je ziet linksbovenin een hamburgermenu, rechtsbovenin een zoekfunctie en een winkelmandje. In het midden staat een jonge dame in een body op de achtergrond. Er staat een tekst over haar heen over producten die nieuw binnen zijn, met een 'bekijkknop'. Rechts in het midden zijn stipjes te zien, hierdoor weet je dat je kan scrollen op de pagina. Onderin het scherm is een navigatiebalk te zien, waarbij je kan navigeren naar de Heren-, Dames-, Kinderen- en Home-pagina.">
+<img src="images/Homepagina-Linda.PNG" width="375px" alt="Dit is de homepagina van de Linda, ook wel de landingspagina genoemd. Linksboven zit een poppetje, waarmee je kan inloggen, in het midden staat het logo en rechtsbovenin staat een zoekfunctie. Hieronder staat een caroussel met alle verschillende categorie pagina's die er zijn. Daaronder is een 'voorpagina' van een artikel te zien, met een achtergrondafbeelding. Onder deze grote aanduiding voor een artikel, staan een liveblog en andere artikelen.">
 
 **Screenshot(s) van de tweede pagina (small screen):**
 
-<img src="images/Detailpagina-Zara.PNG" width="375px" alt="Dit is een detailpagina van de Zara, indien je hebt geklikt op de Home-pagina en vervolgens  Woonkamer | Decor hebt aangeklikt. Je ziet ook hier weer linksbovenin een hamburgermenu, rechtsbovenin een zoekfunctie en een winkelmandje. Bovenin in het midden zie je staan op welke pagina je zit (Woonkamer | Decor). Net daaronder zie je alle filters die deze pagina heeft en daaronder staan de must haves. Je ziet hier een afbeelding van een product, bijvoorbeeld een tapijt met vintage effect of een vaas met contrast, met daaronder de titel van het product en de prijs.">
+<img src="images/Detailpagina-Linda.PNG" width="375px" alt="Dit is een detailpagina van de Linda, je hebt hier het desbetreffende artikel aangeklikt om te gaan lezen. Net als op de homepagina zie je bovenin het inlogpoppetje, het logo en de zoekfunctie, met daaronder de caroussel voor de verschillende categorie pagina's die er zijn. Het artikel begint met een afbeelding, waar de titel onderstaat. Onder de titel staan de datum en tijd van publicatie, samen met de naam van de auteur. Hieronder begint het artikel pas echt met een inleidende tekst.">
