@@ -64,7 +64,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 <img src="images/Breakdownschets-globaal.PNG" width="375px" alt="Dit is een globale breakdownschets van de detailpagina van de Linda.nl. Dit betreft de header, een aantal sections en een footer.">
 
-<img src="images/Detailpagina.PNG" width="375px" alt="Dit is een uitgebreide breakdownschets van de detailpagina van de Linda.nl. Het artikel gaat over Shane Kluivert die een tweede kookboek uitbrengt.">
+<img src="images/Detailpagina.png" width="375px" alt="Dit is een uitgebreide breakdownschets van de detailpagina van de Linda.nl. Het artikel gaat over Shane Kluivert die een tweede kookboek uitbrengt.">
 
 ## Intake (week 1)
 
