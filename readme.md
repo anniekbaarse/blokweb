@@ -11,6 +11,16 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 3. -...-
 
 
+## Huiswerkopdrachten
+Typografie (oefening 1 en 2): https://codepen.io/anniekbaarse/pen/qBNQVaM
+Positioneren (oefening 1): https://codepen.io/anniekbaarse/pen/JjKxaXe
+Positioneren (oefening 2): https://codepen.io/anniekbaarse/pen/KKMJjQd
+Flexbox (oefening 1): https://codepen.io/anniekbaarse/pen/xxOeMmK
+Flexbox (oefening 2): https://codepen.io/anniekbaarse/pen/PozgLzQ
+JS 3-stap (oefening 1): https://codepen.io/anniekbaarse/pen/qBNzyYb
+JS 3-stap (oefening 2): https://codepen.io/anniekbaarse/pen/zYBVJqq
+
+
 
 ## Eindgesprek (week 7/8)
 
