@@ -12,13 +12,13 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Huiswerkopdrachten
-Typografie (oefening 1 en 2): https://codepen.io/anniekbaarse/pen/qBNQVaM
-Positioneren (oefening 1): https://codepen.io/anniekbaarse/pen/JjKxaXe
-Positioneren (oefening 2): https://codepen.io/anniekbaarse/pen/KKMJjQd
-Flexbox (oefening 1): https://codepen.io/anniekbaarse/pen/xxOeMmK
-Flexbox (oefening 2): https://codepen.io/anniekbaarse/pen/PozgLzQ
-JS 3-stap (oefening 1): https://codepen.io/anniekbaarse/pen/qBNzyYb
-JS 3-stap (oefening 2): https://codepen.io/anniekbaarse/pen/zYBVJqq
+1. Typografie (oefening 1 en 2): https://codepen.io/anniekbaarse/pen/qBNQVaM
+2. Positioneren (oefening 1): https://codepen.io/anniekbaarse/pen/JjKxaXe
+3. Positioneren (oefening 2): https://codepen.io/anniekbaarse/pen/KKMJjQd
+4. Flexbox (oefening 1): https://codepen.io/anniekbaarse/pen/xxOeMmK
+5. Flexbox (oefening 2): https://codepen.io/anniekbaarse/pen/PozgLzQ
+6. JS 3-stap (oefening 1): https://codepen.io/anniekbaarse/pen/qBNzyYb
+7. JS 3-stap (oefening 2): https://codepen.io/anniekbaarse/pen/zYBVJqq
 
 
 
