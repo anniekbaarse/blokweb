@@ -48,8 +48,6 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ### Stand van zaken
 
--dit ging goed & dit was lastig-
-
 Aan het begin vond ik het heel lastig om een beginnetje te maken. Dit kwam omdat ik eigenlijk niet zo goed wist waar ik mee moest beginnen, doordat er zoveel content op de pagina's staat. Ook was het weer even inkomen met HTML en CSS, waardoor het extra moeite en tijd kostte om er iets moois ervan te maken. Toen ik eenmaal bezig was, ging het eigenlijk wel goed, totdat er meerdere dingen in CSS niet lukten... Gelukkig heeft de studentassistent mij hier heel ver mee kunnen helpen!
 
 Het enige wat mij (en de studentassisten) nog niet is gelukt, is van de header een scrollbar te maken, zoals ook op www.linda.nl te zien is. Daarnaast zijn er een aantal kleinere (detail) dingetjes niet in CSS gelukt, zoals de afbeeldingen de volle breedte laten innemen (zonder padding/margin aan de zijkanten). Ook is het bij kleinere afbeeldingen ergens op de site niet gelukt om de juiste grootte mee te geven, deze zijn nu namelijk een beetje vervormd.
@@ -60,8 +58,8 @@ Ik ben in ieder geval heel erg tevreden op wat ik tot nu toe heb gemaakt! Ik wee
 
 **Screenshot(s):**
 
--screenshot(s) van hoe ver je bent met korte uitleg-
 <img src="images/Linda.nl-Detailpagina.png" width="375px" alt="Dit is een screenshot van mijn gemaakte website tot nu toe.">
+
 Ik heb mij gericht op een detailpagina van www.linda.nl . Hier staat een artikel in over Shane Kluivert die een tweede kookboek uitbrengt. Hieronder nog een schermopname van al mijn code.
 
 ### Agenda voor meeting
