@@ -61,10 +61,8 @@ Ik ben in ieder geval heel erg tevreden op wat ik tot nu toe heb gemaakt! Ik wee
 **Screenshot(s):**
 
 -screenshot(s) van hoe ver je bent met korte uitleg-
-<iframe src="images/" width="375px" alt="Dit is een schermopname van mijn gemaakte website tot nu toe.">
+<img src="images/Linda.nl-Detailpagina.PDF" width="375px" alt="Dit is een screenshot van mijn gemaakte website tot nu toe.">
 Ik heb mij gericht op een detailpagina van www.linda.nl . Hier staat een artikel in over Shane Kluivert die een tweede kookboek uitbrengt. Hieronder nog een schermopname van al mijn code.
-  
-<iframe src="images/" width="750px" alt="Dit is een schermopname van mijn HTML en CSS voor mijn gemaakte website tot nu toe.">
 
 ### Agenda voor meeting
 
