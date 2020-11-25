@@ -58,7 +58,9 @@ Ik ben in ieder geval heel erg tevreden op wat ik tot nu toe heb gemaakt! Ik wee
 
 **Screenshot(s):**
 
-<img src="images/Linda.nl-Detailpagina.png" width="375px" alt="Dit is een screenshot van mijn gemaakte website tot nu toe.">
+
+<img src="images/Linda.nl-Homepagina.png" width="375px" alt="Dit is een screenshot van de homepagina van mijn gemaakte website tot nu toe.">
+<img src="images/Linda.nl-Detailpagina.png" width="375px" alt="Dit is een screenshot van de detailpagina van mijn gemaakte website tot nu toe.">
 
 Ik heb mij gericht op een detailpagina van www.linda.nl . Hier staat een artikel in over Shane Kluivert die een tweede kookboek uitbrengt. Hieronder nog een schermopname van al mijn code.
 
