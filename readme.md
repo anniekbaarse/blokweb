@@ -70,11 +70,11 @@ Ik heb mij gericht op een detailpagina van www.linda.nl . Hier staat een artikel
 
 -samen met je groepje opstellen-
 
-| student 1      | student 2          | student 3    | student 4        |
-| ---            | ---                | ---          | ---              |
-| dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
-| dan dat ook nog| dit als er tijd is | nog een punt | dit wil ik zeker |
-| ...            | ...                | ...          | ...              |
+| student 1: Anniek Baarse      | student 2          | student 3    | student 4        |
+| ---                           | ---                | ---          | ---              |
+| De slider in de header.       | en dit             | en ik dit    | en dan ik dat    |
+| De breedte van afbeeldingen.  | dit als er tijd is | nog een punt | dit wil ik zeker |
+| De footer die 2-koloms hoort. | ...                | ...          | ...              |
 
 ### Verslag van meeting
 
