@@ -5,16 +5,23 @@
     /* padding en border hebben geen invloed op de width */
     box-sizing: border-box;
     font-family: "Helvetica Neue", sans-serif;
+    background-color: white;
+}
+
+body {
+    width: 100%;
 }
 
 header {
     display: flex;
     margin-left: 1em;
     margin-right: 1em;
+    width: 100%;
 }
 
-header nav {
-    display: relative;
+header nav section ul {
+    display: flex;
+    justify-content: space-between;
 }
 
 header nav section ul li {
@@ -57,6 +64,7 @@ p.ondertitel {
     font-weight: 300;
     margin-top: 1em;
     margin: auto;
+    font-size: .7em;
 }
 
 h1 {
@@ -67,6 +75,7 @@ h1 {
     /* margin boven en onder & links en rechts */
     margin: .25em 0;
     line-height: 1em;
+    font-size: 1.1em;
 }
 
 h2 {
@@ -74,6 +83,7 @@ h2 {
     margin: 0 0 .5em 0;
     /* maak de tekst zo smal als mogelijk */
     font-stretch: ultra-condensed;
+    font-size: 1.1em;
 }
 
 h3 {
@@ -98,14 +108,17 @@ h5 {
 }
 
 p {
+    font-size: .85em;
     font-weight: 300;
     margin: 0 0 2em 0;
 }
 
+/* H2 in eerste artikel over Shane KLuivert */
 main article:nth-of-type(1) h2 {
     font-weight: 900;
 }
 
+/* H2 in tweede artikel met kopje meer eten & drinken */
 main article:nth-of-type(2) h2 {
     font-weight: 200;
     /* iets meer witruimte tussen de letters in */
@@ -113,6 +126,7 @@ main article:nth-of-type(2) h2 {
     text-align: center;
 }
 
+/* H2 in derde artikel met kopje advertorials cultuursnuivers */
 main article:nth-of-type(3) h2 {
     font-weight: 200;
     /* iets meer witruimte tussen de letters in */
@@ -120,6 +134,7 @@ main article:nth-of-type(3) h2 {
     text-align: center;
 }
 
+/* H2 in vierde artikel met kopje meest bekeken */
 main article:nth-of-type(4) h2 {
     font-weight: 200;
     /* iets meer witruimte tussen de letters in */
@@ -127,6 +142,7 @@ main article:nth-of-type(4) h2 {
     text-align: center;
 }
 
+/* H3 in eerste artikel over Shane Kluivert */
 main article:nth-of-type(1) h3:nth-of-type(1) {
     text-transform: uppercase;
     font-weight: 300;
@@ -136,6 +152,7 @@ main article:nth-of-type(1) h3:nth-of-type(1) {
     letter-spacing: .05em;
 }
 
+/* H3 in vierde artikel over meest bekeken de 'uitleg' bij afbeelding */
 main article:nth-of-type(4) h3 {
     font-weight: 400;
     font-size: .9em;
@@ -145,33 +162,39 @@ main article:nth-of-type(4) h3 {
     margin: 0 0 2em 0;
 }
 
+/* H4 in eerste artikel over Shane Kluivert 'tijdsaanduiding en auteur' */
 main article:nth-of-type(1) h4:nth-of-type(1) {
     text-transform: uppercase;
     margin: 0 0 1.5em 0;
 }
 
+/* H5 in vierde artikel over meest bekeken de 'ondertitel' bij afbeelding */
 main article:nth-of-type(4) h5:nth-of-type(1) {
     letter-spacing: .05em;
     font-size: .8em;
     margin: 1em 0;
 }
 
+/* eerste p in eerste artikel over Shane Kluivert */
 main article:nth-of-type(1) p:nth-of-type(2) {
     margin-bottom: 1em;
 }
 
+/* negende p in eerste artikel over Shane Kluivert 'lees ook' */
 main article:nth-of-type(1) p:nth-of-type(9) {
     text-align: center;
     margin-top: 2em;
     margin-bottom: .5em;
 }
 
+/* tiende p in eerste artikel over Shane Kluivert 'link bij lees ook' */
 main article:nth-of-type(1) p:nth-of-type(10) {
     text-align: center;
     margin-top: 0;
     margin-bottom: 2em;
 }
 
+/* p in tweede artikel 'meer eten & drinken link' */
 main article:nth-of-type(2) p:nth-of-type(1) {
     text-transform: uppercase;
     font-weight: 800;
@@ -180,108 +203,169 @@ main article:nth-of-type(2) p:nth-of-type(1) {
     margin-bottom: 2em;
 }
 
+/* linkjes in eerste artikel over Shane Kluivert */
 main article:nth-of-type(1) a {
     text-decoration: underline;
     color: black;
 }
 
+/* linkjes in tweede artikel 'meer eten & drinken' */
 main article:nth-of-type(2) a {
     text-decoration: underline;
     color: black;
 }
 
-/* unvisited link */
+/* unvisited link in eerste artikel over Shane Kluivert */
 main article:nth-of-type(1) a:link {
     color: #5d8cf1;
 }
 
-/* visited link */
+/* visited link in eerste artikel over Shane Kluivert */
 main article:nth-of-type(1) a:visited {
     color: #5d8cf1;
 }
 
-/* mouse over link */
-main article:nth-of-type(1) a:hover, a:focus {}
+/* mouse over link in eerste artikel over Shane Kluivert */
+main article:nth-of-type(1) a:hover,
+a:focus {}
 
-/* selected link */
+/* selected link in eerste artikel over Shane Kluivert */
 main article:nth-of-type(1) a:active {}
 
+/* het eerste 'blokje' in het tweede artikel */
 main article:nth-of-type(2) section:nth-of-type(1) {
     display: flex;
     flex-direction: row;
 }
 
+/* de eerste sectie uit het eerste 'blokje' in het tweede artikel */
 main article:nth-of-type(2) section:nth-of-type(1) section:nth-of-type(1) {
     flex-direction: column;
 }
 
+/* het tweede 'blokje' in het tweede artikel */
 main article:nth-of-type(2) section:nth-of-type(2) {
     display: flex;
     flex-direction: row;
 }
 
+/* de eerste sectie uit het tweede 'blokje' in het tweede artikel */
 main article:nth-of-type(2) section:nth-of-type(2) section:nth-of-type(1) {
     flex-direction: column;
 }
 
+/* het derde 'blokje' in het tweede artikel */
 main article:nth-of-type(2) section:nth-of-type(3) {
     display: flex;
     flex-direction: row;
 }
 
+/* de eerste sectie uit het derde 'blokje' in het tweede artikel */
 main article:nth-of-type(2) section:nth-of-type(3) section:nth-of-type(1) {
     flex-direction: column;
 }
 
+/* het vierde 'blokje' in het tweede artikel */
 main article:nth-of-type(2) section:nth-of-type(4) {
     display: flex;
     flex-direction: row;
 }
 
+/* de eerste sectie uit het vierde 'blokje' in het tweede artikel */
 main article:nth-of-type(2) section:nth-of-type(4) section:nth-of-type(1) {
     flex-direction: column;
 }
 
+/* het vijfde 'blokje' in het tweede artikel */
 main article:nth-of-type(2) section:nth-of-type(5) {
     display: flex;
     flex-direction: row;
 }
 
+/* de eerste sectie uit het vijfde 'blokje' in het tweede artikel */
 main article:nth-of-type(2) section:nth-of-type(5) section:nth-of-type(1) {
     flex-direction: column;
 }
 
+/* de secties uit artikel 3 in een horizontale scrollbar willen plaatsen */
 main article:nth-of-type(3) section {
     /* scrollbar van meerdere elementen die uit beeld flowen */
     overflow-x: scroll;
 }
 
-main article:nth-of-type(4) section section:nth-of-type(1) {
-    text-align: center;
+/* de secties uit artikel 4 in een horizontale scrollbar willen plaatsen */
+main article:nth-of-type(4) section {
+    /* scrollbar van meerdere elementen die uit beeld flowen */
+    overflow-x: scroll;
 }
 
-/* unvisited link */
+/* in het vierde artikel de tekst onder de foto */
+main article:nth-of-type(4) section section:nth-of-type(1) {
+    text-align: center;
+
+}
+
+/* unvisited link bij section 'share' */
 main section.share a:link {
     color: black;
     text-decoration: none;
 }
 
-/* visited link */
+/* visited link bij section 'share' */
 main section.share a:visited {
     color: black;
     text-decoration: none;
 }
 
-/* mouse over link */
-main section.share a:hover, a:focus {
+/* mouse over link bij section 'share' */
+main section.share a:hover,
+a:focus {
     text-decoration: none;
 }
 
-/* selected link */
+/* selected link bij section 'share' */
 main section.share a:active {}
+
+/* afbeelding Shane in eerste artikel */
+main article:nth-of-type(1) img {
+    width: 100%;
+    height: auto;
+}
+
+/* video over Shane in eerste artikel */
+main article:nth-of-type(1) iframe {
+    width: 100%;
+    height: auto;
+}
+
+/* afbeeldingen van facebook, whatsapp en email om te sharen */
+main section.share img {
+    width:1.75em;
+    height: auto;
+    margin-right: .3em;
+}
+
+/* afbeeldingen in artikel 'meer eten & drinken */
+main article:nth-of-type(2) section:nth-of-type(2) img {
+    width: 5em;
+    height: 5em;
+}
+
+/* afbeeldingen in artikel 'advertorials cultuursnuivers' */
+main article:nth-of-type(3) section img {
+    width: 100%;
+    height: auto;
+}
+
+/* afbeeldingen in artikel 'meest bekeken' */
+main article:nth-of-type(4) section img {
+    width: 100%;
+    height: auto;
+}
 
 footer {
     margin-left: 2em;
+    margin-right: 2em;
     position: static;
 }
 
@@ -325,28 +409,37 @@ footer a:visited {
 }
 
 /* mouse over link */
-footer a:hover, a:focus {
+footer a:hover,
+a:focus {
     text-decoration: underline;
 }
 
 /* selected link */
 footer a:active {}
 
-/* unvisited link */
+/* unvisited link bij 'volg ons' */
 footer section:nth-of-type(1) a:link {
     text-decoration: none;
 }
 
-/* visited link */
+/* visited link bij 'volg ons' */
 footer section:nth-of-type(1) a:visited {
     text-decoration: none;
 }
 
-/* mouse over link */
-footer section:nth-of-type(1) a:hover, a:focus {
+/* mouse over link bij 'volg ons' */
+footer section:nth-of-type(1) a:hover,
+a:focus {
     color: black;
     text-decoration: none;
 }
 
-/* selected link */
+/* selected link bij 'volg ons' */
 footer section:nth-of-type(1) a:active {}
+
+/* afbeeldingen van social media accounts in de footer */
+footer section:nth-of-type(1) img {
+    width:1.75em;
+    height: auto;
+    margin-right: .3em;
+}
