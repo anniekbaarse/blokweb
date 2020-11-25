@@ -56,10 +56,11 @@ Verder is mijn ontwerp nu nog echt puur gericht op smartphone formaat, maar door
 
 Ik ben in ieder geval heel erg tevreden op wat ik tot nu toe heb gemaakt! Ik weet van mezelf dat ik niet de beste ben in HTML/CSS, maar zodra het dan toch allemaal lukt, ben ik wel altijd eventjes trots op het resultaat.
 
-**Screenshot(s):**
-
+**Screenshot Homepagina Linda.nl:**
 
 <img src="images/Linda.nl-Homepagina.png" width="375px" alt="Dit is een screenshot van de homepagina van mijn gemaakte website tot nu toe.">
+
+**Screenshot Detailpagina Linda.nl:**
 <img src="images/Linda.nl-Detailpagina.png" width="375px" alt="Dit is een screenshot van de detailpagina van mijn gemaakte website tot nu toe.">
 
 Ik heb mij gericht op een detailpagina van www.linda.nl . Hier staat een artikel in over Shane Kluivert die een tweede kookboek uitbrengt. Hieronder nog een schermopname van al mijn code.
