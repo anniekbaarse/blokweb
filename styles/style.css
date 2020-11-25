@@ -6,33 +6,34 @@
     box-sizing: border-box;
     font-family: "Helvetica Neue", sans-serif;
     background-color: white;
-}
-
-body {
-    width: 100%;
+    margin: 0;
 }
 
 header {
     display: flex;
     margin-left: 1em;
     margin-right: 1em;
-    width: 100%;
 }
 
-header nav section ul {
+header nav ul {
     display: flex;
-    justify-content: space-between;
+    overflow-x: scroll;
 }
 
-header nav section ul li {
+header nav ul li {
     text-transform: uppercase;
     font-weight: 200;
-    /* maak de tekst zo smal als mogelijk */
-    font-stretch: ultra-condensed;
     /* margin boven en onder & links en rechts */
     margin: .25em 0;
     line-height: 1em;
     list-style-type: none;
+    padding-left: .5em;
+    padding-right: .5em;
+}
+
+.meerknopje {
+    display: flex;
+    flex-direction: row;
 }
 
 /* unvisited link */
@@ -45,6 +46,8 @@ header a:link {
 header a:visited {
     color: black;
     text-decoration: none;
+    text-decoration: underline;
+    font-weight: 600;
 }
 
 /* mouse over link */
@@ -54,7 +57,26 @@ a:focus {
     text-decoration: none;
 }
 
-main {
+/* selected link */
+header a:active {}
+
+
+/* inlog icon in header */
+header nav ul li:nth-of-type(1) img {
+    width: 110%;
+}
+
+/* linda logo in header */
+header nav ul li:nth-of-type(2) img {
+    width: 50%;
+}
+
+/* vergrootglas icon in header */
+header nav ul li:nth-of-type(3) img {
+    width: 90%;
+}
+
+main article {
     margin-left: 2em;
     margin-right: 2em;
 }
@@ -111,6 +133,7 @@ p {
     font-size: .85em;
     font-weight: 300;
     margin: 0 0 2em 0;
+    line-height: 1.5em;
 }
 
 /* H2 in eerste artikel over Shane KLuivert */
@@ -124,6 +147,7 @@ main article:nth-of-type(2) h2 {
     /* iets meer witruimte tussen de letters in */
     letter-spacing: .02em;
     text-align: center;
+    padding-top: 1em;
 }
 
 /* H2 in derde artikel met kopje advertorials cultuursnuivers */
@@ -132,6 +156,7 @@ main article:nth-of-type(3) h2 {
     /* iets meer witruimte tussen de letters in */
     letter-spacing: .02em;
     text-align: center;
+    padding-top: 1em;
 }
 
 /* H2 in vierde artikel met kopje meest bekeken */
@@ -140,6 +165,7 @@ main article:nth-of-type(4) h2 {
     /* iets meer witruimte tussen de letters in */
     letter-spacing: .02em;
     text-align: center;
+    padding-top: 1em;
 }
 
 /* H3 in eerste artikel over Shane Kluivert */
@@ -150,6 +176,17 @@ main article:nth-of-type(1) h3:nth-of-type(1) {
     color: grey;
     /* iets meer witruimte tussen de letters in */
     letter-spacing: .05em;
+    padding: 1em 0;
+}
+
+/* H3 in tweede artikel over meer eten & drinken */
+main article:nth-of-type(2) h3 {
+    padding-bottom: 1em;
+}
+
+/* H3 in het derde artikel over advertorials cultuursnuivers */
+main article:nth-of-type(3) h3 {
+    padding-bottom: 1.8em;
 }
 
 /* H3 in vierde artikel over meest bekeken de 'uitleg' bij afbeelding */
@@ -159,20 +196,20 @@ main article:nth-of-type(4) h3 {
     /* iets meer witruimte tussen de letters in */
     letter-spacing: .05em;
     line-height: 1.4em;
-    margin: 0 0 2em 0;
+    margin-bottom: 1.8em;
 }
 
 /* H4 in eerste artikel over Shane Kluivert 'tijdsaanduiding en auteur' */
-main article:nth-of-type(1) h4:nth-of-type(1) {
+main article:nth-of-type(1) h4 {
     text-transform: uppercase;
     margin: 0 0 1.5em 0;
 }
 
 /* H5 in vierde artikel over meest bekeken de 'ondertitel' bij afbeelding */
-main article:nth-of-type(4) h5:nth-of-type(1) {
+main article:nth-of-type(4) h5 {
     letter-spacing: .05em;
     font-size: .8em;
-    margin: 1em 0;
+    margin-bottom: .5em;
 }
 
 /* eerste p in eerste artikel over Shane Kluivert */
@@ -199,8 +236,9 @@ main article:nth-of-type(2) p:nth-of-type(1) {
     text-transform: uppercase;
     font-weight: 800;
     text-align: center;
-    margin-top: 0;
-    margin-bottom: 2em;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+    font-size: 1em;
 }
 
 /* linkjes in eerste artikel over Shane Kluivert */
@@ -231,6 +269,19 @@ a:focus {}
 
 /* selected link in eerste artikel over Shane Kluivert */
 main article:nth-of-type(1) a:active {}
+
+/* het tweede artikel */
+main article:nth-of-type(2) section {
+    display: flex;
+    align-items: flex-start;
+    padding: .25em 0;
+}
+
+/* de secties in de secties in het tweede artikel */
+main article:nth-of-type(2) section section {
+    display: flex;
+    align-items: flex-start;
+}
 
 /* het eerste 'blokje' in het tweede artikel */
 main article:nth-of-type(2) section:nth-of-type(1) {
@@ -305,6 +356,11 @@ main article:nth-of-type(4) section section:nth-of-type(1) {
 
 }
 
+main section.share {
+    margin-left: 2em;
+    padding: .5em 0;
+}
+
 /* unvisited link bij section 'share' */
 main section.share a:link {
     color: black;
@@ -340,7 +396,7 @@ main article:nth-of-type(1) iframe {
 
 /* afbeeldingen van facebook, whatsapp en email om te sharen */
 main section.share img {
-    width:1.75em;
+    width: 1.75em;
     height: auto;
     margin-right: .3em;
 }
@@ -439,7 +495,13 @@ footer section:nth-of-type(1) a:active {}
 
 /* afbeeldingen van social media accounts in de footer */
 footer section:nth-of-type(1) img {
-    width:1.75em;
+    width: 1.75em;
     height: auto;
     margin-right: .3em;
+}
+
+.logo {
+    width: 50%;
+    align-content: center;
+    margin-top: 1em;
 }
