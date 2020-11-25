@@ -6,7 +6,7 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 
 ## Bronnenlijst
-1. -bron 1-
+1. http://www.html-totaal.be/18.0-symbolen.htm
 2. -bron 2-
 3. -...-
 
