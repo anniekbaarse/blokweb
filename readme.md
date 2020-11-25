@@ -72,9 +72,9 @@ Ik heb mij gericht op een detailpagina van www.linda.nl . Hier staat een artikel
 
 | student 1: Anniek             | student 2: Gwyneth        | student 3: Chantal              | student 4: Mark   |
 | ---                           | ---                       | ---                             | ---               |
-| De slider in de header.       | De afbeeldingen in de slider 2 op de gamepagina. | Hoe ik het optijd ga afkrijgen. | en dan ik dat     |
-| De breedte van afbeeldingen.  | Zoekbalk zonder streepje. |                                 | dit wil ik zeker  |
-| De footer die 2-koloms hoort. |                           |                                 | ...               |
+| De slider in de header.       | De afbeeldingen in de slider 2 op de gamepagina. | Hoe ik het optijd ga afkrijgen. | Hoe kan ik icoontjes toevoegen voor en na tekst, '>' en bolletjes voor sliders.     |
+| De breedte van afbeeldingen.  | Zoekbalk zonder streepje. |                                 | Moet elk drop-down ding/slide worden uitgewerkt.  |
+| De footer die 2-koloms hoort. |                           |                                 | Social gedeelte heel lelijk op de echte site, moet dit ook zo uitgewerkt worden.               |
 
 ### Verslag van meeting
 
