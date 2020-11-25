@@ -70,11 +70,11 @@ Ik heb mij gericht op een detailpagina van www.linda.nl . Hier staat een artikel
 
 -samen met je groepje opstellen-
 
-| student 1: Anniek Baarse      | student 2          | student 3    | student 4        |
-| ---                           | ---                | ---          | ---              |
-| De slider in de header.       | en dit             | en ik dit    | en dan ik dat    |
-| De breedte van afbeeldingen.  | dit als er tijd is | nog een punt | dit wil ik zeker |
-| De footer die 2-koloms hoort. | ...                | ...          | ...              |
+| student 1: Anniek             | student 2: Gwyneth                                | student 3: Chantal              | student 4: Mark   |
+| ---                           | ---                                               | ---                             | ---               |
+| De slider in de header.       | De afbeeldingen in de slider 2 op de gamepagina.  | Hoe ik het optijd ga afkrijgen. | en dan ik dat     |
+| De breedte van afbeeldingen.  | Zoekbalk zonder streepje.                         |                                 | dit wil ik zeker  |
+| De footer die 2-koloms hoort. |                                                   |                                 | ...               |
 
 ### Verslag van meeting
 
