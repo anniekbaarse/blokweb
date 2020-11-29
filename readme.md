@@ -21,7 +21,6 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 7. JS 3-stap (oefening 2): https://codepen.io/anniekbaarse/pen/zYBVJqq
 8. Grid (oefening 1): https://codepen.io/anniekbaarse/pen/GRjgBXK
 9. Grid (oefening 2): https://codepen.io/anniekbaarse/pen/oNzgMrO
-10. Grid (oefening 3): https://codepen.io/anniekbaarse/pen/mdryjNy
 
 
 ## Eindgesprek (week 7/8)
