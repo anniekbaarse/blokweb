@@ -21,6 +21,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 7. JS 3-stap (oefening 2): https://codepen.io/anniekbaarse/pen/zYBVJqq
 8. Grid (oefening 1): https://codepen.io/anniekbaarse/pen/GRjgBXK
 9. Grid (oefening 2): https://codepen.io/anniekbaarse/pen/oNzgMrO
+10. Media queries (oefening 1): https://codepen.io/anniekbaarse/pen/dypogWO?editors=1100
+11. Media queries (oefening 2): https://codepen.io/anniekbaarse/pen/VwKLErp
+12. Media queries (oefening 3): https://codepen.io/anniekbaarse/pen/vYXOVpZ
 
 
 ## Eindgesprek (week 7/8)
