@@ -24,6 +24,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 10. Media queries (oefening 1): https://codepen.io/anniekbaarse/pen/dypogWO?editors=1100
 11. Media queries (oefening 2): https://codepen.io/anniekbaarse/pen/VwKLErp
 12. Media queries (oefening 3): https://codepen.io/anniekbaarse/pen/vYXOVpZ
+13. Animaties (oefening 1): https://codepen.io/anniekbaarse/pen/mdrPKor
+14. Animaties (oefening 2): https://codepen.io/anniekbaarse/pen/QWKNxoQ?editors=1100
 
 
 ## Eindgesprek (week 7/8)
