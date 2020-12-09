@@ -122,7 +122,7 @@ Ik vond de meeting eigenlijk niet heel erg 'nuttig'. Ik had verwacht dat het vee
 
 **Je startniveau:** Mijn startniveau zit tussen blauw en rood in denk ik. Toch begin ik liever bij blauw, zodat ik altijd nog kan doorstromen naar rood als ik merk dat dat nodig is.
 
-**Je focus:** Ik ga mij focussen op het helemaal responsive maken van mijn website.
+**Je focus:** Ik ga mij focussen op de surface plane (animaties, typografie, video, geluid...). Ik had graag mijn website responsive willen maken, maar de studentassistent heeft mij aangeraden dit niet te doen als ik niet zo goed ben in HTML en CSS, omdat www.linda.nl heel erg anders is op een groot scherm en ik denk dat dit toch echt te moeilijk wordt voor mezelf.
 
 **Je opdracht:** https://www.linda.nl
 
