@@ -15,12 +15,48 @@ header {
     margin-right: 1em;
 }
 
-header nav ul {
+header nav {
+    width: 100%;
+    margin: auto;
+}
+
+/* bovenste nav in header */
+header nav ul:nth-of-type(1){
     display: flex;
-    overflow-x: scroll;
+    flex-direction: row;
+    width: 90vw;
+}
+
+/* onderste nav --> slider in header */
+header nav ul:nth-of-type(2) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: scroll;
 }
 
 header nav ul li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow-x: scroll;
+
+    text-transform: uppercase;
+    font-weight: 200;
+    /* margin boven en onder & links en rechts */
+    margin: .25em 0;
+    line-height: 1em;
+    list-style-type: none;
+    padding-left: .5em;
+    padding-right: .5em;
+}
+
+header nav ul:nth-of-type(2) li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow-x: scroll;
+
     text-transform: uppercase;
     font-weight: 200;
     /* margin boven en onder & links en rechts */
@@ -62,21 +98,22 @@ header a:active {}
 
 
 /* inlog icon in header */
-header nav ul li:nth-of-type(1) img {
+header ul li:nth-of-type(1) img {
     width: 110%;
 }
 
 /* linda logo in header */
-header nav ul li:nth-of-type(2) img {
+header ul li:nth-of-type(2) img {
     width: 50%;
+    margin: 0 25%;
 }
 
 /* vergrootglas icon in header */
-header nav ul li:nth-of-type(3) img {
+header ul li:nth-of-type(3) img {
     width: 90%;
 }
 
-main article {
+main {
     margin-left: 2em;
     margin-right: 2em;
 }
@@ -253,14 +290,22 @@ main article:nth-of-type(2) a {
     color: black;
 }
 
+/* linkjes in derde artikel 'lief & leed' */
+main.index article:nth-of-type(3) a {
+    text-decoration: underline;
+    color: black;
+}
+
 /* unvisited link in eerste artikel over Shane Kluivert */
 main article:nth-of-type(1) a:link {
-    color: #5d8cf1;
+    text-decoration: underline;
+    color: black;
 }
 
 /* visited link in eerste artikel over Shane Kluivert */
 main article:nth-of-type(1) a:visited {
-    color: #5d8cf1;
+    text-decoration: underline;
+    color: black;
 }
 
 /* mouse over link in eerste artikel over Shane Kluivert */
@@ -338,6 +383,17 @@ main article:nth-of-type(2) section:nth-of-type(5) section:nth-of-type(1) {
     flex-direction: column;
 }
 
+/* het zesde 'blokje' in het tweede artikel */
+main article:nth-of-type(2) section:nth-of-type(6) {
+    display: flex;
+    flex-direction: row;
+}
+
+/* de eerste sectie uit het zesde 'blokje' in het tweede artikel */
+main article:nth-of-type(2) section:nth-of-type(6) section:nth-of-type(1) {
+    flex-direction: column;
+}
+
 /* de secties uit artikel 3 in een horizontale scrollbar willen plaatsen */
 main article:nth-of-type(3) section {
     /* scrollbar van meerdere elementen die uit beeld flowen */
@@ -357,7 +413,6 @@ main article:nth-of-type(4) section section:nth-of-type(1) {
 }
 
 main section.share {
-    margin-left: 2em;
     padding: .5em 0;
 }
 
@@ -407,6 +462,12 @@ main article:nth-of-type(2) section:nth-of-type(2) img {
     height: 5em;
 }
 
+/* afbeeldingen in artikel "livestream-link" */
+main article:nth-of-type(3) img {
+    width: 100%;
+    height: auto;
+}
+
 /* afbeeldingen in artikel 'advertorials cultuursnuivers' */
 main article:nth-of-type(3) section img {
     width: 100%;
@@ -423,15 +484,21 @@ footer {
     margin-left: 2em;
     margin-right: 2em;
     position: static;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
 }
 
 footer section {
     position: relative;
     flex-wrap: wrap;
+    grid-template-columns: 1fr 1fr;
 }
 
-footer section:nth-of-type(1) {
-    text-decoration: none;
+.volg-ons ul {
+    margin-bottom: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
 }
 
 footer h2 {
@@ -500,8 +567,18 @@ footer section:nth-of-type(1) img {
     margin-right: .3em;
 }
 
+.ShaneKluivert {
+    width: 100vw;
+}
+
 .logo {
-    width: 50%;
+    width: 45%;
     align-content: center;
-    margin-top: 1em;
+    justify-content: center;
+    margin: 1em 0;
+}
+
+.volg-ons ul li a img {
+    width: 9vw;
+    height: auto;
 }
