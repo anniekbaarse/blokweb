@@ -72,7 +72,7 @@ Ik heb mij vooral gericht op de homepagina van www.linda.nl . Hier heb ik alle c
 
 ### Verslag van meeting
 
-- invullen na de meeting -
+-invullen na de meeting-
 
 
 
