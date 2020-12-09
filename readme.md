@@ -64,11 +64,11 @@ Ik heb mij vooral gericht op de homepagina van www.linda.nl . Hier heb ik alle c
 
 ### Agenda voor meeting
 
-| student 1: Anniek                          | student 2:         | student 3:               | student 4:    |
-| ---                                        | ---                | ---                      | ---           |
-| De slider in de header die nu fout gaat.   | ---                | ---                      | ---           |
-| De afbeeldingen goed schalen.              | ---                | ---                      | ---           |
-| Een slider van meerdere contentonderdelen. | ---                | ---                      | ---           |
+| student 1: Anniek                                           | student 2:         | student 3:               | student 4:    |
+| ---                                                         | ---                | ---                      | ---           |
+| De slider in de header die nu fout gaat.                    | ---                | ---                      | ---           |
+| De afbeeldingen goed schalen.                               | ---                | ---                      | ---           |
+| De 'verschijnende' pagina als je op het account icon klikt. | ---                | ---                      | ---           |
 
 ### Verslag van meeting
 
