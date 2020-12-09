@@ -46,7 +46,30 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Voortgang 2 (week 5)
 
--same as voortgang 1-
+Ik heb aan mijn detailpagina niet heel veel tijd meer besteed. Deze is grotendeels al af, op een paar stylingsdingen na, waar ik nog even niet uitkom... Het enige wat mij (en de studentassisten) nog niet is gelukt, is van de header een scrollbar te maken, zoals ook op www.linda.nl te zien is. Daarnaast zijn er een aantal kleinere (detail) dingetjes nog steeds niet in CSS gelukt, zoals de afbeeldingen de volle breedte laten innemen (zonder padding/margin aan de zijkanten). Ook is het bij kleinere afbeeldingen ergens op de site niet gelukt om de juiste grootte mee te geven, deze zijn nu namelijk een beetje vervormd. Behalve aan de slider, heb ik aan de afbeeldingen nog niet heel veel aandacht besteedt.
+
+Verder is mijn ontwerp nu nogsteeds echt puur gericht op smartphone formaat, maar doordat ik afbeeldingen width: 100% heb meegegeven, zullen deze (als je de site op desktop op full screen opent) de hele pagina in beslag nemen.
+
+Ik had voorheen alleen nog maar mijn detailpagina, maar nu heb ik ook de gehele homepagina gemaakt. Ook deze is nog niet helemaal zoals ik het wil, maar hopelijk kom ik door middel van dit voortgangsgesprek weer een stapje dichterbij een heel mooi eindresultaat!
+
+**Screenshot Homepagina Linda.nl:**
+
+<img src="images/Linda.nl-Homepagina.png" width="375px" alt="Dit is een screenshot van de homepagina van mijn gemaakte website tot nu toe.">
+
+**Screenshot Detailpagina Linda.nl:**
+
+<img src="images/Linda.nl-Detailpagina.png" width="375px" alt="Dit is een screenshot van de detailpagina van mijn gemaakte website tot nu toe.">
+
+Ik heb mij gericht op een detailpagina van www.linda.nl . Hier staat een artikel in over Shane Kluivert die een tweede kookboek uitbrengt. Hieronder nog een schermopname van al mijn code.
+
+### Agenda voor meeting
+
+| student 1: Anniek             | student 2: Gwyneth        | student 3: Chantal              | student 4: Mark   |
+| ---                           | ---                       | ---                             | ---               |
+| De slider in de header.       | De afbeeldingen in de slider 2 op de gamepagina. | Hoe ik het optijd ga afkrijgen. | Hoe kan ik icoontjes toevoegen voor en na tekst, '>' en bolletjes voor sliders.     |
+| De breedte van afbeeldingen.  | Zoekbalk zonder streepje. |                                 | Moet elk drop-down ding/slide worden uitgewerkt.  |
+| De footer die 2-koloms hoort. |                           |                                 | Social gedeelte heel lelijk op de echte site, moet dit ook zo uitgewerkt worden.               |
+
 
 
 
@@ -74,8 +97,6 @@ Ik heb mij gericht op een detailpagina van www.linda.nl . Hier staat een artikel
 
 ### Agenda voor meeting
 
--samen met je groepje opstellen-
-
 | student 1: Anniek             | student 2: Gwyneth        | student 3: Chantal              | student 4: Mark   |
 | ---                           | ---                       | ---                             | ---               |
 | De slider in de header.       | De afbeeldingen in de slider 2 op de gamepagina. | Hoe ik het optijd ga afkrijgen. | Hoe kan ik icoontjes toevoegen voor en na tekst, '>' en bolletjes voor sliders.     |
@@ -84,9 +105,7 @@ Ik heb mij gericht op een detailpagina van www.linda.nl . Hier staat een artikel
 
 ### Verslag van meeting
 
--na afloop snel uitkomsten vastleggen-
-
-
+Ik vond de meeting eigenlijk niet heel erg 'nuttig'. Ik had verwacht dat het veel grootser of belangrijker was, zoals een soort van tussentijdse beoordeling, maar het leek naar mijn mening meer op een vragenuurtje. Ik heb dan ook de vragen gesteld over de dingen waar ik tegenaan loop, maar dit had ik een dag voor de meeting ook al gevraagd tijdens het vragenuurtje aan de studentassistent. Doordat zij dit ook niet zo goed wist, kwam ik eigenlijk niet heel veel verder.
 
 ## Breakdownschets (week 1)
 
