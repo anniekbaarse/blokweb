@@ -54,22 +54,25 @@ Ik had voorheen alleen nog maar mijn detailpagina, maar nu heb ik ook de gehele 
 
 **Screenshot Homepagina Linda.nl:**
 
-<img src="images/Linda.nl-Homepagina.png" width="375px" alt="Dit is een screenshot van de homepagina van mijn gemaakte website tot nu toe.">
+<img src="images/Linda.nl-Homepagina2.0.jpeg" width="375px" alt="Dit is een screenshot van de homepagina van mijn gemaakte website tot nu toe.">
 
 **Screenshot Detailpagina Linda.nl:**
 
-<img src="images/Linda.nl-Detailpagina.png" width="375px" alt="Dit is een screenshot van de detailpagina van mijn gemaakte website tot nu toe.">
+<img src="images/Linda.nl-Detailpagina2.0.jpeg" width="375px" alt="Dit is een screenshot van de detailpagina van mijn gemaakte website tot nu toe.">
 
-Ik heb mij gericht op een detailpagina van www.linda.nl . Hier staat een artikel in over Shane Kluivert die een tweede kookboek uitbrengt. Hieronder nog een schermopname van al mijn code.
+Ik heb mij vooral gericht op de homepagina van www.linda.nl . Hier heb ik alle content in gezet en nu moet ik eigenlijk nog alles tot in de puntjes mooi maken met css en eventueel ook javascript. 
 
 ### Agenda voor meeting
 
-| student 1: Anniek             | student 2: Gwyneth        | student 3: Chantal              | student 4: Mark   |
-| ---                           | ---                       | ---                             | ---               |
-| De slider in de header.       | De afbeeldingen in de slider 2 op de gamepagina. | Hoe ik het optijd ga afkrijgen. | Hoe kan ik icoontjes toevoegen voor en na tekst, '>' en bolletjes voor sliders.     |
-| De breedte van afbeeldingen.  | Zoekbalk zonder streepje. |                                 | Moet elk drop-down ding/slide worden uitgewerkt.  |
-| De footer die 2-koloms hoort. |                           |                                 | Social gedeelte heel lelijk op de echte site, moet dit ook zo uitgewerkt worden.               |
+| student 1: Anniek                          | student 2:         | student 3:               | student 4:    |
+| ---                                        | ---                | ---                      | ---           |
+| De slider in de header die nu fout gaat.   | ---                | ---                      | ---           |
+| De afbeeldingen goed schalen.              | ---                | ---                      | ---           |
+| Een slider van meerdere contentonderdelen. | ---                | ---                      | ---           |
 
+### Verslag van meeting
+
+- invullen na de meeting -
 
 
 
@@ -93,7 +96,7 @@ Ik ben in ieder geval heel erg tevreden op wat ik tot nu toe heb gemaakt! Ik wee
 
 <img src="images/Linda.nl-Detailpagina.png" width="375px" alt="Dit is een screenshot van de detailpagina van mijn gemaakte website tot nu toe.">
 
-Ik heb mij gericht op een detailpagina van www.linda.nl . Hier staat een artikel in over Shane Kluivert die een tweede kookboek uitbrengt. Hieronder nog een schermopname van al mijn code.
+Ik heb mij gericht op een detailpagina van www.linda.nl . Hier staat een artikel in over Shane Kluivert die een tweede kookboek uitbrengt. 
 
 ### Agenda voor meeting
 
