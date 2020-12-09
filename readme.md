@@ -9,7 +9,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 1. http://www.html-totaal.be/18.0-symbolen.htm
 2. https://www.geeksforgeeks.org/how-to-add-icon-logo-in-title-bar-using-html/
 3. https://www.xspdf.com/resolution/50161209.html
-4. -...-
+4. https://codeburst.io/how-to-create-horizontal-scrolling-containers-d8069651e9c6
+5. -...-
 
 
 ## Huiswerkopdrachten
