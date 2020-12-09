@@ -176,33 +176,7 @@ p {
 /* H2 in eerste artikel over Shane KLuivert */
 main article:nth-of-type(1) h2 {
     font-weight: 900;
-}
-
-/* H2 in tweede artikel met kopje meer eten & drinken */
-main article:nth-of-type(2) h2 {
-    font-weight: 200;
-    /* iets meer witruimte tussen de letters in */
-    letter-spacing: .02em;
-    text-align: center;
-    padding-top: 1em;
-}
-
-/* H2 in derde artikel met kopje advertorials cultuursnuivers */
-main article:nth-of-type(3) h2 {
-    font-weight: 200;
-    /* iets meer witruimte tussen de letters in */
-    letter-spacing: .02em;
-    text-align: center;
-    padding-top: 1em;
-}
-
-/* H2 in vierde artikel met kopje meest bekeken */
-main article:nth-of-type(4) h2 {
-    font-weight: 200;
-    /* iets meer witruimte tussen de letters in */
-    letter-spacing: .02em;
-    text-align: center;
-    padding-top: 1em;
+    text-align: left;
 }
 
 /* H3 in eerste artikel over Shane Kluivert */
@@ -227,7 +201,7 @@ main article:nth-of-type(3) h3 {
 }
 
 /* H3 in vierde artikel over meest bekeken de 'uitleg' bij afbeelding */
-main article:nth-of-type(4) h3 {
+.MeestBekeken h3 {
     font-weight: 400;
     font-size: .9em;
     /* iets meer witruimte tussen de letters in */
@@ -243,7 +217,7 @@ main article:nth-of-type(1) h4 {
 }
 
 /* H5 in vierde artikel over meest bekeken de 'ondertitel' bij afbeelding */
-main article:nth-of-type(4) h5 {
+.MeestBekeken h5 {
     letter-spacing: .05em;
     font-size: .8em;
     margin-bottom: .5em;
@@ -291,7 +265,7 @@ main article:nth-of-type(2) a {
 }
 
 /* linkjes in derde artikel 'lief & leed' */
-main.index article:nth-of-type(3) a {
+.index article:nth-of-type(3) a {
     text-decoration: underline;
     color: black;
 }
@@ -326,11 +300,6 @@ main article:nth-of-type(2) section {
 main article:nth-of-type(2) section section {
     display: flex;
     align-items: flex-start;
-}
-
-/* het eerste 'blokje' in het tweede artikel */
-main article:nth-of-type(2) section:nth-of-type(1) {
-    display: flex;
     flex-direction: row;
 }
 
@@ -339,21 +308,9 @@ main article:nth-of-type(2) section:nth-of-type(1) section:nth-of-type(1) {
     flex-direction: column;
 }
 
-/* het tweede 'blokje' in het tweede artikel */
-main article:nth-of-type(2) section:nth-of-type(2) {
-    display: flex;
-    flex-direction: row;
-}
-
 /* de eerste sectie uit het tweede 'blokje' in het tweede artikel */
 main article:nth-of-type(2) section:nth-of-type(2) section:nth-of-type(1) {
     flex-direction: column;
-}
-
-/* het derde 'blokje' in het tweede artikel */
-main article:nth-of-type(2) section:nth-of-type(3) {
-    display: flex;
-    flex-direction: row;
 }
 
 /* de eerste sectie uit het derde 'blokje' in het tweede artikel */
@@ -361,32 +318,14 @@ main article:nth-of-type(2) section:nth-of-type(3) section:nth-of-type(1) {
     flex-direction: column;
 }
 
-/* het vierde 'blokje' in het tweede artikel */
-main article:nth-of-type(2) section:nth-of-type(4) {
-    display: flex;
-    flex-direction: row;
-}
-
 /* de eerste sectie uit het vierde 'blokje' in het tweede artikel */
 main article:nth-of-type(2) section:nth-of-type(4) section:nth-of-type(1) {
     flex-direction: column;
 }
 
-/* het vijfde 'blokje' in het tweede artikel */
-main article:nth-of-type(2) section:nth-of-type(5) {
-    display: flex;
-    flex-direction: row;
-}
-
 /* de eerste sectie uit het vijfde 'blokje' in het tweede artikel */
 main article:nth-of-type(2) section:nth-of-type(5) section:nth-of-type(1) {
     flex-direction: column;
-}
-
-/* het zesde 'blokje' in het tweede artikel */
-main article:nth-of-type(2) section:nth-of-type(6) {
-    display: flex;
-    flex-direction: row;
 }
 
 /* de eerste sectie uit het zesde 'blokje' in het tweede artikel */
@@ -399,43 +338,40 @@ main article:nth-of-type(3) section {
     /* scrollbar van meerdere elementen die uit beeld flowen */
     overflow-x: scroll;
 }
+/* dit ook voor artikel 4 proberen */
 
-/* de secties uit artikel 4 in een horizontale scrollbar willen plaatsen */
-main article:nth-of-type(4) section {
-    /* scrollbar van meerdere elementen die uit beeld flowen */
-    overflow-x: scroll;
-}
+
 
 /* in het vierde artikel de tekst onder de foto */
-main article:nth-of-type(4) section section:nth-of-type(1) {
+.MeestBekeken section section:nth-of-type(1) {
     text-align: center;
 
 }
 
-main section.share {
+.share {
     padding: .5em 0;
 }
 
 /* unvisited link bij section 'share' */
-main section.share a:link {
+.share a:link {
     color: black;
     text-decoration: none;
 }
 
 /* visited link bij section 'share' */
-main section.share a:visited {
+.share a:visited {
     color: black;
     text-decoration: none;
 }
 
 /* mouse over link bij section 'share' */
-main section.share a:hover,
+.share a:hover,
 a:focus {
     text-decoration: none;
 }
 
 /* selected link bij section 'share' */
-main section.share a:active {}
+.share a:active {}
 
 /* afbeelding Shane in eerste artikel */
 main article:nth-of-type(1) img {
@@ -450,7 +386,7 @@ main article:nth-of-type(1) iframe {
 }
 
 /* afbeeldingen van facebook, whatsapp en email om te sharen */
-main section.share img {
+.share img {
     width: 1.75em;
     height: auto;
     margin-right: .3em;
@@ -474,8 +410,25 @@ main article:nth-of-type(3) section img {
     height: auto;
 }
 
+/* afbeeldingen in artikel 'advertorials cultuursnuivers' */
+.advertorialsCultuursnuivers img {
+    width: 100%;
+    height: auto;
+}
+
 /* afbeeldingen in artikel 'meest bekeken' */
-main article:nth-of-type(4) section img {
+.MeestBekeken section img {
+    width: 100%;
+    height: auto;
+}
+
+.posters {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: .5em;
+}
+
+.posters img {
     width: 100%;
     height: auto;
 }
@@ -571,6 +524,11 @@ footer section:nth-of-type(1) img {
     width: 100vw;
 }
 
+.lindaLoves {
+    width: 100vw;
+    margin-left: -2em;
+}
+
 .logo {
     width: 45%;
     align-content: center;
@@ -582,3 +540,117 @@ footer section:nth-of-type(1) img {
     width: 9vw;
     height: auto;
 }
+
+
+
+
+
+/* p in derde artikel 'lief & leed' */
+.LiefEnLeed p:nth-of-type(1) {
+    text-transform: uppercase;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+    font-size: 1em;
+}
+
+
+/* H3 in derde artikel over meer lief & leed */
+.LiefEnLeed h3 {
+    padding-bottom: 1em;
+}
+
+/* H3 in vierde artikel over meest bekeken de 'uitleg' bij afbeelding */
+/*
+.LiefEnLeed section section h3 {
+    font-weight: 600;
+    font-size: .85em;
+    text-align: left;
+}
+*/
+
+/* linkjes in derde artikel 'meer lief & leed' */
+.LiefEnLeed a {
+    text-decoration: underline;
+    color: black;
+}
+
+/* het derde artikel index pagina*/
+.LiefEnLeed section {
+    display: flex;
+    align-items: flex-start;
+    padding: .25em 0;
+}
+
+/* de eerste secties in de secties in het derde artikel */
+.LiefEnLeed section section {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+/* de eerste sectie uit het eerste 'blokje' in het derde artikel */
+.LiefEnLeed section:nth-of-type(1) section:nth-of-type(1) {
+    flex-direction: column;
+}
+
+/* de eerste sectie uit het tweede 'blokje' in het derde artikel */
+.LiefEnLeed section:nth-of-type(2) section:nth-of-type(1) {
+    flex-direction: column;
+}
+
+/* de eerste sectie uit het derde 'blokje' in het derde artikel */
+.LiefEnLeed section:nth-of-type(3) section:nth-of-type(1) {
+    flex-direction: column;
+}
+
+/* de eerste sectie uit het vierde 'blokje' in het derde artikel */
+.LiefEnLeed section:nth-of-type(4) section:nth-of-type(1) {
+    flex-direction: column;
+}
+
+/* de eerste sectie uit het vijfde 'blokje' in het derde artikel */
+.LiefEnLeed section:nth-of-type(5) section:nth-of-type(1) {
+    flex-direction: column;
+}
+
+/* de eerste sectie uit het zesde 'blokje' in het derde artikel */
+.LiefEnLeed section:nth-of-type(6) section:nth-of-type(1) {
+    flex-direction: column;
+}
+
+/* de eerste sectie uit het zevende 'blokje' in het derde artikel */
+.LiefEnLeed section:nth-of-type(7) section:nth-of-type(1) {
+    flex-direction: column;
+}
+
+/* de eerste sectie uit het achtste 'blokje' in het derde artikel */
+.LiefEnLeed section:nth-of-type(8) section:nth-of-type(1) {
+    flex-direction: column;
+}
+
+/* afbeeldingen in artikel lief & leed */
+.LiefEnLeed section:nth-of-type(2) img {
+    width: 5em;
+    height: 5em;
+}
+
+/* het tweede artikel */
+/*
+.LiefEnLeed section {
+    display: flex;
+    align-items: flex-start;
+    padding: .25em 0;
+}
+*/
+
+/* H2 in vierde artikel met kopje meest bekeken */
+article h2 {
+    font-weight: 200;
+    /* iets meer witruimte tussen de letters in */
+    letter-spacing: .02em;
+    text-align: center;
+    padding-top: 1em;
+}
+
