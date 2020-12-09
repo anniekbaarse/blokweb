@@ -54,11 +54,11 @@ Ik had voorheen alleen nog maar mijn detailpagina, maar nu heb ik ook de gehele 
 
 **Screenshot Homepagina Linda.nl:**
 
-<img src="images/Linda.nl-Homepagina2.0.jpeg" width="375px" alt="Dit is een screenshot van de homepagina van mijn gemaakte website tot nu toe.">
+<img src="images/Linda.nl-Homepagina2.0.jpg" width="375px" alt="Dit is een screenshot van de homepagina van mijn gemaakte website tot nu toe.">
 
 **Screenshot Detailpagina Linda.nl:**
 
-<img src="images/Linda.nl-Detailpagina2.0.jpeg" width="375px" alt="Dit is een screenshot van de detailpagina van mijn gemaakte website tot nu toe.">
+<img src="images/Linda.nl-Detailpagina2.0.jpg" width="375px" alt="Dit is een screenshot van de detailpagina van mijn gemaakte website tot nu toe.">
 
 Ik heb mij vooral gericht op de homepagina van www.linda.nl . Hier heb ik alle content in gezet en nu moet ik eigenlijk nog alles tot in de puntjes mooi maken met css en eventueel ook javascript. 
 
