@@ -39,7 +39,6 @@ header nav ul li {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    overflow-x: scroll;
 
     text-transform: uppercase;
     font-weight: 200;
@@ -55,7 +54,6 @@ header nav ul:nth-of-type(2) li {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    overflow-x: scroll;
 
     text-transform: uppercase;
     font-weight: 200;
@@ -333,19 +331,9 @@ main article:nth-of-type(2) section:nth-of-type(6) section:nth-of-type(1) {
     flex-direction: column;
 }
 
-/* de secties uit artikel 3 in een horizontale scrollbar willen plaatsen */
-main article:nth-of-type(3) section {
-    /* scrollbar van meerdere elementen die uit beeld flowen */
-    overflow-x: scroll;
-}
-/* dit ook voor artikel 4 proberen */
-
-
-
 /* in het vierde artikel de tekst onder de foto */
 .MeestBekeken section section:nth-of-type(1) {
     text-align: center;
-
 }
 
 .share {
@@ -372,6 +360,16 @@ a:focus {
 
 /* selected link bij section 'share' */
 .share a:active {}
+
+div {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.scrollbar {
+    min-width: 78vw;
+    padding-right: 5px;
+}
 
 /* afbeelding Shane in eerste artikel */
 main article:nth-of-type(1) img {
