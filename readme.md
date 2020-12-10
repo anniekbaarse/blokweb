@@ -66,17 +66,16 @@ Ik heb mij vooral gericht op de homepagina van www.linda.nl . Hier heb ik alle c
 
 ### Agenda voor meeting
 
-| student 1: Anniek                                           | student 2:         | student 3:               | student 4:    |
-| ---                                                         | ---                | ---                      | ---           |
-| De slider in de header die nu fout gaat.                    | ---                | ---                      | ---           |
-| De afbeeldingen goed schalen.                               | ---                | ---                      | ---           |
-| De 'verschijnende' pagina als je op het account icon klikt. | ---                | ---                      | ---           |
+| student 1: Anniek                                           | student 2: Chantal | student 3: Nicole        |
+| ---                                                         | ---                | ---                      |
+| De slider in de header en in sections die nu fout gaat.     | ---                | ---                      | 
+| De afbeeldingen goed schalen.                               | ---                | ---                      | 
+| De 'verschijnende' pagina als je op het account icon klikt. | ---                | ---                      | 
 
 ### Verslag van meeting
 
--invullen na de meeting-
-
-
+Ik vond de meeting heel erg nuttig. De problemen waar ik tegenaan liep, zijn nu gelukkig opgelost. Janno heeft het erg duidelijk uitgelegd, waardoor ik ook begrijp wat ik heb moeten aanpassen aan mijn code. Ik moet nog een aantal dingetjes zelf oplossen, zoals de afbeeldingen goed schalen, deze mocht ik in bijvoorbeeld Photoshop bewerken naar het goede formaat.
+Ik ben naar mijn mening erg goed op weg en ben al heel erg trots op wat ik tot nu toe gemaakt heb! Nu moet ik eigenlijk alles nog tot in de puntjes mooi maken, en kijken wat voor interacties ik kan gaan toevoegen aan de website. Ik ga mij namelijk richting op de surface plane.
 
 ## Voortgang 1 (week 3)
 
