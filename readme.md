@@ -45,6 +45,12 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -same as voortgang 1-
 
+De animaties die ik ga uitwerken zijn:
+1. Het account icon uit, als je hierop klikt, dan komt de inlogpagina van bijvoorbeeld boven naar beneden in beeld sliden.
+2. Als je op het vergrootglas klikt, komt de zoekbalk van rechts naar links in beeld sliden.
+3. In de navigatiebalk als je op meer klikt, dan wordt dit langzaam bold en verandert het pijltje van beneden naar boven. Ook klapt het 'scherm' uit met meer content.
+4. Als laatste voeg ik een leeslijst toe aan artikelen, dit is vergelijkbaar met een favorieten functie, als de gebruiker op een leesboekje of boekenlegger klikt, dan wordt deze gevuld of een andere kleur of een sterretje erbij oid.
+
 
 
 ## Voortgang 2 (week 5)
