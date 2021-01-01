@@ -10,7 +10,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 2. https://www.geeksforgeeks.org/how-to-add-icon-logo-in-title-bar-using-html/
 3. https://www.xspdf.com/resolution/50161209.html
 4. https://codeburst.io/how-to-create-horizontal-scrolling-containers-d8069651e9c6
-5. -...-
+5. https://fontawesome.com/icons/caret-down
+6. -..-
 
 
 ## Huiswerkopdrachten
