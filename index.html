@@ -16,18 +16,18 @@
 </head>
 
 <body>
-    <header>
+   <header>
         <nav>
             <ul>
                 <li>
                     <!-- Bron: https://material.io/resources/icons/?icon=person&style=baseline -->
-                    <span class="material-icons" id="account">
+                    <span class="material-icons" id="account" tabindex="1">
                         person</span>
                     <form id="login">
                         <span class="inlogformulier">
                             <fieldset>
                                 <!-- Bron: https://material.io/resources/icons/?icon=clear&style=baseline -->
-                                <span class="material-icons" id="sluit"></span>
+                                <span class="material-icons" id="sluit" tabindex="0"></span>
                                 <legend>Inloggen</legend>
 
                                 <span class="inloggen">
@@ -38,7 +38,7 @@
 
                                         <span class="warning">
                                             <h6>Let op!</h6>
-                                            <p>Het is niet meer mogelijk om via Facebook in te loggen bij Talpa Network. Er verandert verder niets aan je profiel. Klik <a href="">hier</a> om een nieuw wachtwoord in te stellen en gebruik te blijven maken van jouw Talpa Network profiel. Lukt dit niet of wil je meer weten? Kijk <a href="">hier</a>.
+                                            <p>Het is niet meer mogelijk om via Facebook in te loggen bij Talpa Network. Er verandert verder niets aan je profiel. Klik <a href="#">hier</a> om een nieuw wachtwoord in te stellen en gebruik te blijven maken van jouw Talpa Network profiel. Lukt dit niet of wil je meer weten? Kijk <a href="#">hier</a>.
                                             </p>
                                         </span>
                                         <!--Bron: https://material.io/resources/icons/?icon=mail&style=baseline -->
@@ -53,7 +53,7 @@
                                             lock</span>
                                         <input type="password" name="password" value="" placeholder="Wachtwoord">
 
-                                        <p>Oops, <a href="">wachtwoord vergeten?</a></p>
+                                        <p>Oops, <a href="#">wachtwoord vergeten?</a></p>
                                     </span>
                                 </span>
                                 <span class="submitknop">
@@ -65,10 +65,10 @@
                         </span>
                     </form>
                 </li>
-                <li><a href="index.html"> <img src="images/Screenshot%202020-11-25%20at%2011.07.52.png" alt="Linda.nl logo"> </a></li>
+                <li><a href="index.html" tabindex="2"> <img src="images/Screenshot%202020-11-25%20at%2011.07.52.png" alt="Linda.nl logo"> </a></li>
                 <li>
                     <!-- Bron: https://material.io/resources/icons/?icon=search&style=baseline -->
-                    <span class="material-icons" id="vergrootglas">
+                    <span class="material-icons" id="vergrootglas" tabindex="3">
                         search</span>
 
                     <div id="zoekbalk">
@@ -84,27 +84,29 @@
             </ul>
 
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="">Nieuws</a></li>
-                <li><a href="">Kijken</a></li>
-                <li><a href="">Shop</a></li>
-                <li><a href="">Loves</a></li>
-                <li><a href="">Meiden</a></li>
-                <li><a href="">
-                        <div class="meerknopje"><button class="dropdown">Meer
+                <li><a href="index.html" tabindex="4">Home</a></li>
+                <li><a href="article.html" tabindex="5">Nieuws</a></li>
+                <li><a href="article.html" tabindex="6">Kijken</a></li>
+                <li><a href="article.html" tabindex="7">Shop</a></li>
+                <li><a href="article.html" tabindex="8">Loves</a></li>
+                <li><a href="article.html" tabindex="9">Meiden</a></li>
+                <li><a href="#">
+                        <div class="meerknopje"><button class="dropdown" tabindex="10">Meer
                                 <!-- bron: https://material.io/resources/icons/?icon=arrow_drop_down&style=baseline -->
                                 <span class="material-icons"> arrow_drop_down</span>
                             </button>
                             <div class="dropdown-content">
-                                <a href="#">Nieuws</a>
-                                <a href="#">Kijken</a>
-                                <a href="#">Shop</a>
-                                <a href="#">Lief &amp; Leed</a>
-                                <a href="#">Loves</a>
-                                <a href="#">Meiden</a>
-                                <a href="#">Luisteren</a>
-                                <a href="#">Spelletjes</a>
-                                <a href="#">Over Linda.</a>
+                               <ul>
+                                <li><a href="#">Nieuws</a></li>
+                                <li><a href="#">Kijken</a></li>
+                                <li><a href="#">Shop</a></li>
+                                <li><a href="#">Lief &amp; Leed</a></li>
+                                <li><a href="#">Loves</a></li>
+                                <li><a href="#">Meiden</a></li>
+                                <li><a href="#">Luisteren</a></li>
+                                <li><a href="#">Spelletjes</a></li>
+                                <li><a href="#">Over Linda.</a></li>
+                                </ul>
                             </div>
                         </div>
                     </a></li>
@@ -113,7 +115,7 @@
     </header>
 
     <main>
-        <article class="JohnyDeMol">
+        <article class="JohnyDeMol" tabindex="11">
             <section>
                 <img class="JohnyDeMol" src="images/IMG_2809.jpg" alt="Johny de Mol en zijn ex-vriendin">
             </section>
@@ -122,7 +124,7 @@
         <hr />
 
         <article class='Meer nieuws'>
-            <section>
+            <section tabindex="12">
                 <section>
                     <h5>Liveblog</h5>
                     <h3>Studenten: 'Schrap bindend studieadvies in de abnormale tijden'</h3>
@@ -135,7 +137,7 @@
 
             <hr />
 
-            <section>
+            <section tabindex="13">
                 <section>
                     <h5>Bekend</h5>
                     <h3>'Jar of Hearts'-zangeres Christina Perri verliest baby: 'Ze is nu in vrede'</h3>
@@ -148,7 +150,7 @@
 
             <hr />
 
-            <section>
+            <section tabindex="14">
                 <section>
                     <h5>Binnenland</h5>
                     <h3>Politie verwachts nieuwe piek in online oplichting tijdens Black Friday</h3>
@@ -161,7 +163,7 @@
 
             <hr />
 
-            <section>
+            <section tabindex="15">
                 <section>
                     <h5>Advertorial</h5>
                     <h3>Buik vol van je vetrol? Alles wat je wil weten over buikwandcorrecties en liposuctie</h3>
@@ -173,7 +175,7 @@
 
             <hr />
 
-            <section>
+            <section tabindex="16">
                 <section>
                     <h5>Wat goééééd</h5>
                     <h3>Schotland maakt als eerste land ter wereld dameshygiëneproducten gratis</h3>
@@ -186,7 +188,7 @@
 
             <hr />
 
-            <section>
+            <section tabindex="17">
                 <section>
                     <h5>Binnenland</h5>
                     <h3>Nieuwe online test moet ervaren automobilisten inzicht geven in rijgedrag</h3>
@@ -199,23 +201,25 @@
 
             <hr />
 
-            <p><a href="">meer nieuws &rsaquo;</a></p>
+            <p><a href="#" tabindex="18">meer nieuws &rsaquo;</a></p>
 
             <hr />
         </article> <!-- end of class meer nieuws -->
 
         <article class="livestream-link">
             <h2><b>Neem</b> hier even de tijd voor</h2>
+            <section tabindex="19">
             <img src="images/livestream-link-werkte-niet-begrafenis-1024x576.jpg" alt="Pauline achter de laptop">
             <h5>Interview</h5>
             <h3>Pauline miste begrafenis van vriendin omdat livestream-link niet werkte</h3>
+            </section>
         </article>
 
         <hr />
 
         <article class='LiefEnLeed'>
             <h2><b>Lief &amp;</b> leed</h2>
-            <section>
+            <section tabindex="20">
                 <section>
                     <h5>Moet je even zien</h5>
                     <h3>Broer en zus of een relatie? Dat is de grote vraag op dit Instagram-account</h3>
@@ -228,7 +232,7 @@
 
             <hr />
 
-            <section>
+            <section tabindex="21">
                 <section>
                     <h5>Lief &amp; leed</h5>
                     <h3>Ezy (30) trouwde in Gambia zonder haar familie: 'Alles is last-minute geregeld'</h3>
@@ -241,7 +245,7 @@
 
             <hr />
 
-            <section>
+            <section tabindex="22">
                 <section>
                     <h5>Daar is-ie dan</h5>
                     <h3>Anne beviel zes weken te vroeg van haar tweeling: 'Dat was heel heftig'</h3>
@@ -254,7 +258,7 @@
 
             <hr />
 
-            <section>
+            <section tabindex="23">
                 <section>
                     <h5>Advertorial</h5>
                     <h3>Joric (20) werd blind op zijn negende: 'Mijn buddyhond verbreedt mijn horizon'</h3>
@@ -266,7 +270,7 @@
 
             <hr />
 
-            <section>
+            <section tabindex="24">
                 <section>
                     <h5>Tikkie te veel</h5>
                     <h3>Amal kreeg een Tikkie van 30 cent voor kauwgom: 'Ik ben nog steeds boos'</h3>
@@ -279,7 +283,7 @@
 
             <hr />
 
-            <section>
+            <section tabindex="25">
                 <section>
                     <h5>Interview</h5>
                     <h3>Opgroeien in een arm gezin: 'Mama deed álles voor ons'</h3>
@@ -292,7 +296,7 @@
 
             <hr />
 
-            <section>
+            <section tabindex="26">
                 <section>
                     <h5>Werpsterren</h5>
                     <h3>Kathelijne (toen 18) beviel plotseling op de wc:' Ik raakte volledig in paniek'</h3>
@@ -305,7 +309,7 @@
 
             <hr />
 
-            <section>
+            <section tabindex="27">
                 <section>
                     <h5>Samen sterk</h5>
                     <h3>Marrit (52) verloor man en dochter: 'Rouwen en leven bestaan naast elkaar'</h3>
@@ -316,18 +320,18 @@
                 </section>
             </section>
 
-            <p><a href="">meer lief &amp; leed &rsaquo;</a></p>
+            <p><a href="#" tabindex="28">meer lief &amp; leed &rsaquo;</a></p>
 
             <hr />
         </article> <!-- end of class meer lief & leed -->
 
         <article>
             <h2 class="lindaLovesTekst"><b>Linda.</b> loves</h2>
-            <img class="lindaLoves" src="images/IMG_2808.jpg" alt="">
+            <img class="lindaLoves" src="images/IMG_2808.jpg" alt="Afbeelding van handen die cadeau's vast houden met de tekst erbij: 'Linda.Geeft korting. Voor onder de boom of in de schoen: fijne cadeaus met linda.geeft korting" tabindex="29">
         </article>
 
         <article class='LiefEnLeed'>
-            <section>
+            <section tabindex="30">
                 <section>
                     <h5>Asjemenou</h5>
                     <h3>Veganisten lopen meer risico op botbreuken (maar kunnen dat voorkomen)</h3>
@@ -340,7 +344,7 @@
 
             <hr />
 
-            <section>
+            <section tabindex="31">
                 <section>
                     <h5>Advertorial</h5>
                     <h3>Hoe maak je contact met je publiek? Met deze handige tips lukt het</h3>
@@ -352,7 +356,7 @@
 
             <hr />
 
-            <section>
+            <section tabindex="32">
                 <section>
                     <h5>Mode</h5>
                     <h3>Ze zijn (geen grap) weer hip dit najaar: UGG-sloffen</h3>
@@ -365,7 +369,7 @@
 
             <hr />
 
-            <section>
+            <section tabindex="33">
                 <section>
                     <h5>Wil je weten</h5>
                     <h3>Koks Buckingsham Palace delen recept van traditionele kerstpudding</h3>
@@ -382,55 +386,55 @@
         <article class='advertorialsCultuursnuivers'>
             <h2><b>Meest</b> gelezen</h2>
             <div>
-                <section class="scrollbar">
+                <section class="scrollbar" tabindex="34">
                     <img src="images/martijn-krabbe-klacht-diversiteit-kijken-zonder-kopen-1800x1013.jpg" alt="Martijn Krabbé">
                     <h5>Gelezen bij de tandarts</h5>
                     <h3>Martijn Krabbé reageert op klacht gebrek aan diversiteit bij 'Kopen zonder kijken'</h3>
                 </section>
 
-                <section class="scrollbar">
+                <section class="scrollbar" tabindex="35">
                     <img src="images/Vader-met-corona-op-de-IC-moeder-opgenomen-Thomas-Lucas-Emma-waren-wekenlang-alleen-1024x576.png" alt="Thomas, Lucas en Emma in de woonkamer gezamenlijk op de bank voor de foto">
                     <h5>Interview</h5>
                     <h3>Vader met corona op de IC, moeder opgenomen: Thomas, Lucas &amp; Emma waren wekenlang alleen</h3>
                 </section>
 
-                <section class="scrollbar">
+                <section class="scrollbar" tabindex="36">
                     <img src="images/uggs-sloffen-ugg-trend-mode-najaar-e1606129964371-1800x1013%20(1).jpg" alt="Bruine UGG-sloffen">
                     <h5>Mode</h5>
                     <h3>Ze zijn (geen grap) weer hip dit najaar: UGG-sloffen</h3>
                 </section>
 
-                <section class="scrollbar">
+                <section class="scrollbar" tabindex="37">
                     <img src="images/maximatrucjesvolumieuskapsel-e1606143176267-1024x576.jpg" alt="Koningin Máxima">
                     <h5>Blauw bloed</h5>
                     <h3>Alles over de krullen, knotten en haarstukjes (já, die heeft ze) van koningin Máxima</h3>
                 </section>
 
-                <section class="scrollbar">
+                <section class="scrollbar" tabindex="38">
                     <img src="images/Roos-Reedijk-e1606231473314-1024x577.jpeg" alt="'Kopen Zonder Kijken' styliste Roos Reedijk">
                     <h5>Interview</h5>
                     <h3>'Kopen Zonder Kijken' stylist Roos Reedijk: 'Ik word aangesproken bij het stoplicht'</h3>
                 </section>
 
-                <section class="scrollbar">
+                <section class="scrollbar" tabindex="39">
                     <img src="images/IMG_2813.jpg" alt="Linda de Mol bij 'Linda's Wintermaand'">
                     <h5>TV</h5>
                     <h3>Deze vijf spraakmakende BN'ers zijn te gast in 'Linda's Wintermaand'</h3>
                 </section>
 
-                <section class="scrollbar">
+                <section class="scrollbar" tabindex="40">
                     <img src="images/Ezy-en-Lamin-1-600x332.jpg" alt="Ezy met haar vriend/kersverse man zoenend op het strand van Gambia">
                     <h5>Lief &amp; Leed</h5>
                     <h3>Ezy (30) trouwde in Gambia zonder haar familie: 'Alles is last-minute geregeld'</h3>
                 </section>
 
-                <section class="scrollbar">
+                <section class="scrollbar" tabindex="41">
                     <img src="images/IMG_2814.jpg" alt="Babyvoetjes ingewikkeld in een doek">
                     <h5>Buitenland</h5>
                     <h3>Qatar achterhaalt moeder van op vliegveld achtergelaten moeder</h3>
                 </section>
 
-                <section class="scrollbar">
+                <section class="scrollbar" tabindex="42">
                     <img src="images/IMG_2815.jpg" alt="Prins Harry">
                     <h5>Rode oortjes</h5>
                     <h3>Prins Harry gekroond tot 'Sexiest Royal', maar er zijn meer hete prinsen</h3>
@@ -441,7 +445,7 @@
         <article class='MeestBekeken'>
             <h2><b>Kijken</b> </h2>
             <div>
-                <section class="scrollbar">
+                <section class="scrollbar" tabindex="43">
                     <img src="images/Schermafbeelding-2020-11-20-om-16.22.31-600x330.png" alt="Een vrouw die een cosmetische ingreep overweegt">
                     <section>
                         <h5>Strak in m'n vel</h5>
@@ -449,15 +453,15 @@
                     </section>
                 </section>
 
-                <section class="scrollbar">
+                <section class="scrollbar" tabindex="44">
                     <img src="images/IMG_2812.jpg" alt="Diana van 'The Crown' en 'Diana: in her own words'">
                 </section>
 
-                <section class="scrollbar">
+                <section class="scrollbar" tabindex="45">
                     <img src="images/IMG_2811.jpg" alt="Ellen, een vrouw die jarenlang is mishandeld door haar partner, op het nieuws">
                 </section>
 
-                <section class="scrollbar">
+                <section class="scrollbar" tabindex="46">
                     <img src="images/Screenshot%202020-11-25%20at%2009.41.10.png" alt="Antonie (man) die tegen een muur aanstaat en recht in de camera kijkt">
                     <section>
                         <h5>Antonie &amp; Merlijn: 10 jaar later</h5>
@@ -470,39 +474,39 @@
         <article>
             <h2><b>Linda.</b>Originals </h2>
             <section class="posters">
-                <img src="images/Screenshot%202020-11-25%20at%2009.34.22.png" alt="Poster van: 'Vegan met Vogel'">
-                <img src="images/Screenshot%202020-11-25%20at%2009.34.32.png" alt="Poster van: 'De Vlucht'">
+                <img src="images/Screenshot%202020-11-25%20at%2009.34.22.png" alt="Poster van: 'Vegan met Vogel'" tabindex="47">
+                <img src="images/Screenshot%202020-11-25%20at%2009.34.32.png" alt="Poster van: 'De Vlucht'" tabindex="48">
             </section>
         </article>
 
         <article class='advertorialsCultuursnuivers'>
             <h2><b>Linda.</b>podcast</h2>
             <div>
-                <section class="scrollbar">
+                <section class="scrollbar" tabindex="49">
                     <img src="images/Roel-v2-1024x576.jpg" alt="Roel van Velzen met z'n 'Roels sofa sessies'">
                     <h5>Podcast</h5>
                     <h3>'Roels Sofasessies: nieuwe ronden, nieuwe kansen' bespreekt het leven ná een scheiding</h3>
                 </section>
 
-                <section class="scrollbar">
+                <section class="scrollbar" tabindex="50">
                     <img src="images/AMBER-1024x576-1024x576.jpg" alt="Een foto van de achterkant van het onderlichaam van een high-class escort">
                     <h5>Podcast</h5>
                     <h3>Amber: de waargebeurde belevenissen van een high-class escort</h3>
                 </section>
 
-                <section class="scrollbar">
+                <section class="scrollbar" tabindex="51">
                     <img src="images/uit-de-podcast-600x338.jpg" alt="Poster van Evelien de Bruijn over haar 'uit de pod cast' verhaal">
                     <h5>Uit de podcast</h5>
                     <h3>Evelien de Bruijn praat met BN'ers over coming-out en ouderrol</h3>
                 </section>
 
-                <section class="scrollbar">
+                <section class="scrollbar" tabindex="52">
                     <img src="images/FABERYAYO-1024x576-1024x576.jpg" alt="Pepijn Lanen in een beige trui die in de beige achtergrond verdwijnt, waardoor alleen het hoofd opvalt">
                     <h5>Podcast</h5>
                     <h3>Faberyayo &amp; de Moeders: Pepijn Lanen spreekt bekende moeders over ouderschap</h3>
                 </section>
 
-                <section class="scrollbar">
+                <section class="scrollbar" tabindex="53">
                     <img src="images/OVER-HAAR-1024x576-1024x576.jpg" alt="Een roze nepbont harige achtergrond met de tekst 'OVER HAAR door Carolien Borgers' eroverheen">
                     <h5>Podcast</h5>
                     <h3>Over Haar: Carolien Borgers onderzoekt onze relatie met lichaamshaar</h3>

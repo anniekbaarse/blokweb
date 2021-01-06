@@ -12,6 +12,7 @@ function sluitLogin () {
     login.classList.remove('toonForm');
 }
 
+
 // zoekbalk //
 var zoekknop = document.getElementById('vergrootglas');
 var kruisklik = document.getElementById('kruisklik');
@@ -24,6 +25,20 @@ function openZoek() {
 function sluitZoek() {
     var body = document.body;
     body.classList.remove('open-zoekbalk');
+}
+
+// helaas niet gelukt om deze werkend te krijgen //
+// dropdown in navigatiebalk //
+var dropdown = document.getElementById('dropdown');
+
+function openDicht() {
+    var dropdowncontent = document.getElementsByClassName('dropdown-content');
+    dropdowncontent.classList.add('open');
+}
+
+function dichtOpen () {
+    var dropdowncontent = document.getElementsByClassName('dropdown-content');
+    dropdowncontent.classList.remove('open');
 }
 
 
@@ -89,14 +104,3 @@ vergrootglas.addEventListener('click', openZoek);
 kruisklik.addEventListener('click', sluitZoek);
 duimOmhoog.addEventListener('click', duimOmhoogGeklikt);
 duimOmlaag.addEventListener('click', duimOmlaagGeklikt);
-
-
-
-
-
-/* meerknopje dropdown menu
-
-<span class="material-icons">
-arrow_drop_up
-</span>
-*/
