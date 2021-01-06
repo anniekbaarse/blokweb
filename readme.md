@@ -42,17 +42,21 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 -screenshot(s) van je eindresultaat-
 
+## Screenreader test
 
+Ik heb getest hoe het is om met een screenreader door mijn website te navigeren. Ik vond dit persoonlijk heel erg lastig en ingewikkeld, maar wellicht komt dit ook doordat ik niet goed begreep hoe ik de screenreader moest 'besturen' om bepaalde acties te doen. Wel merk ik dat de content in principe goed te volgen is, maar dat het door een soort van robotstem toch best moeilijk is om te begrijpen wat er gezegd wordt.
+Ik ben mij er nu wel heel goed van bewust hoe belangrijk het is voor slechtzienden dat een website goed kan omgaan met een screenreader, want als dit niet zo is, dan zul je zeer waarschijnlijk heel erg snel de website weer verlaten.
 
 ## Voortgang 3 (week 6)
 
--same as voortgang 1-
+Deze week had ik niet heel veel extra aan mijn website gedaan. Ik heb wel bedacht welke animaties ik wil gaan maken, en wil in deze voortgang even navragen of dit goede animaties zijn.
 
-De animaties die ik ga uitwerken zijn:
-1. Het account icon uit, als je hierop klikt, dan komt de inlogpagina van bijvoorbeeld boven naar beneden in beeld sliden.
+De animaties die ik wil gaan uitwerken zijn:
+1. Als je op het account icon klikt, dan komt de inlogpagina van bijvoorbeeld boven naar beneden in beeld sliden.
 2. Als je op het vergrootglas klikt, komt de zoekbalk van rechts naar links in beeld sliden.
 3. In de navigatiebalk als je op meer klikt, dan wordt dit langzaam bold en verandert het pijltje van beneden naar boven. Ook klapt het 'scherm' uit met meer content.
-4. Als laatste voeg ik een leeslijst toe aan artikelen, dit is vergelijkbaar met een favorieten functie, als de gebruiker op een leesboekje of boekenlegger klikt, dan wordt deze gevuld of een andere kleur of een sterretje erbij oid.
+4. Onderaan een desbetreffend artikel kun je een duimpje omhoog of omlaag geven, je ziet hierdoor het aantal duimpjes veranderen en de kleur van het aangeklikte duimpje verandert naar rood of groen.
+5. Middel in een desbetreffend artikel staat een 'Lees meer' button, als je hierop klikt zal de rest van het artikel uitklappen. Dit kan je tevens ook weer inklappen.
 
 
 
