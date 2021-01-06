@@ -39,9 +39,13 @@ Ik heb flink lopen struggelen met de animaties in JavaScript. Uiteindelijk zijn 
 
 Al met al vind ik wel dat ik erg trots op mijn werk kan en mag zijn, want ik ben niet de beste in HTML / CSS / JS en heb iets mooiers gemaakt dan ik van tevoren had verwacht te kunnen maken! Voor de volgende keer raad ik mijzelf toch aan om nog eerder eraan te beginnen, want hoe eerder je begint, hoe minder stress op het einde en als je dan nog tijd over hebt, kan je nog alles tot in de puntjes mooi maken.
 
-**Screenshot(s):**
+**Screenshot Homepagina Linda.nl:**
 
--screenshot(s) van je eindresultaat-
+<img src="images/Home - LINDA.nl final.jpg" width="375px" alt="Dit is een screenshot van de uiteindelijke homepagina van mijn gemaakte website.">
+
+**Screenshot Detailpagina Linda.nl:**
+
+<img src="images/Shane Kluivert brengt tweede kookboek uit en ja, daar worden wij blij van - LINDA.nl final.jpg" width="375px" alt="Dit is een screenshot van de uiteindelijke detailpagina van mijn gemaakte website.">
 
 ## Screenreader test
 
