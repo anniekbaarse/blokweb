@@ -36,7 +36,9 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 
 ## Eindgesprek (week 7/8)
 
--dit ging goed & dit was lastig-
+Ik heb flink lopen struggelen met de animaties in JavaScript. Uiteindelijk zijn ze bijna allemaal gelukt, alleen de dropdown in de navigatiebalk is mij helaas niet gelukt... Wat ik ook probeerde en wat ik ook op internet vond of wie ik ook maar om hulp vroeg, het lukte niet... Verder zijn al mijn andere animaties wel gelukt, maar ben ik nog niet geheel tevreden over het eindresultaat wat betreft CSS. Ik heb denk ik verkeerd ingeschat hoeveel werk het zou kosten om te maken, waardoor ik te laat begonnen ben en mij teveel heb gefocused op het JavaScript wat niet lukte, waardoor ik de CSS een beetje links heb laten liggen...
+
+Al met al vind ik wel dat ik erg trots op mijn werk kan en mag zijn, want ik ben niet de beste in HTML / CSS / JS en heb iets mooiers gemaakt dan ik van tevoren had verwacht te kunnen maken! Voor de volgende keer raad ik mijzelf toch aan om nog eerder eraan te beginnen, want hoe eerder je begint, hoe minder stress op het einde en als je dan nog tijd over hebt, kan je nog alles tot in de puntjes mooi maken.
 
 **Screenshot(s):**
 
