@@ -13,7 +13,6 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 5. https://fontawesome.com/icons/caret-down
 6. https://stackoverflow.com/questions/43360526/align-material-icon-vertically
 7. https://material.io/resources/icons/?style=baseline
-8. -..-
 
 
 ## Huiswerkopdrachten
