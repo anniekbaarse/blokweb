@@ -11,7 +11,8 @@ Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/a
 3. https://www.xspdf.com/resolution/50161209.html
 4. https://codeburst.io/how-to-create-horizontal-scrolling-containers-d8069651e9c6
 5. https://fontawesome.com/icons/caret-down
-6. -..-
+6. https://stackoverflow.com/questions/43360526/align-material-icon-vertically
+7. -..-
 
 
 ## Huiswerkopdrachten
