@@ -1,0 +1,826 @@
+/* styling geldig op alle html */
+* {
+    /* nergens een padding tussen, zonder dit kan een default gegeven worden met padding */
+    padding: 0;
+    /* padding en border hebben geen invloed op de width */
+    box-sizing: border-box;
+    font-family: "Helvetica Neue", sans-serif;
+    background-color: white;
+    margin: 0;
+}
+
+header {
+    display: flex;
+    position: sticky;
+    top: 0;
+    width: 100%
+}
+
+header nav {
+    width: 100%;
+}
+
+/* bovenste nav in header */
+header nav ul:nth-of-type(1) {
+    display: flex;
+    flex-direction: row;
+    width: 90vw;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-top: 1em;
+}
+
+/* onderste nav --> slider in header */
+header nav ul:nth-of-type(2) {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    overflow: scroll;
+        margin-left: 1em;
+    margin-right: 1em;
+}
+
+header nav ul li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    text-transform: uppercase;
+    font-weight: 200;
+    /* margin boven en onder & links en rechts */
+    margin: .25em 0;
+    line-height: 1em;
+    list-style-type: none;
+    padding-left: .5em;
+    padding-right: .5em;
+}
+
+header nav ul:nth-of-type(2) li {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    text-transform: uppercase;
+    font-weight: 200;
+    /* margin boven en onder & links en rechts */
+    margin: .25em 0;
+    line-height: 1em;
+    list-style-type: none;
+    padding-left: .5em;
+    padding-right: .5em;
+}
+
+.meerknopje {
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+}
+
+.meerknopje .dropdown {
+    border: none;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 100%;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.arrow {
+    border: solid black;
+    border-width: 0 1px 1px 0;
+    display: inline-block;
+    padding: 4px;
+}
+
+.down {
+    transform: rotatte(45deg);
+    -webkit-transform: rotate(45deg);
+}
+
+/* unvisited link */
+header a:link {
+    color: black;
+    text-decoration: none;
+}
+
+/* visited link */
+header a:visited {
+    color: black;
+    text-decoration: none;
+    text-decoration: underline;
+    font-weight: 600;
+}
+
+/* mouse over link */
+header a:hover,
+a:focus {
+    color: black;
+    text-decoration: none;
+}
+
+/* selected link */
+header a:active {}
+
+/* linda logo in header */
+header ul li:nth-of-type(2) img {
+    width: 50%;
+    margin: 0 25%;
+}
+
+#logoInlog {
+    width: 100%;
+    height: 50%;
+
+}
+
+#Logo {
+    width: 100%;
+    justify-content: center;
+}
+
+form {
+    position: fixed;
+    left: 0; top: 0;
+    transform: translateY(-100%);
+    transition: 1s;
+}
+
+.toonForm {
+    transform: translateY(0%);
+    height: 100%;
+    background-color: white;
+
+}
+
+.login {
+    /* hierdoor komt het helemaal onderaan het formulier */
+    position: absolute;
+    top: 0%%;
+    left: 0%; right: 0%;
+}
+
+#zoekbalk {
+    height: 27px;
+    width: 100vw;
+    background-color: #ececec;
+    display: none;
+    align-items: center;
+}
+
+.open-zoekbalk #zoekbalk {
+    display: flex;
+    align-content: flex-start;
+    width: 100vw;
+}
+
+#zoekbalk input {
+    flex-grow: 1;
+    border: none;
+    background: none;
+    outline: none;
+    font-weight: 300;
+    color: black;
+    font-size: 1em;
+    width: 100vw;
+}
+
+#zoekbalk input::placeholder {
+    color: #949494;
+    width: 100vw;
+}
+
+fieldset {
+    border: none;
+    margin: 1em;
+}
+
+input {
+    width: 90%;
+    padding: 12px 20px;
+    margin: 8px 0;
+}
+
+input[type=submit] {
+    text-transform: uppercase;
+    font-weight: 900;
+    /* kleur grijs */
+    color: #4e4e4e;
+    background-color: black;
+    padding: 1em;
+    border-radius: 5px;
+    margin: 1em;
+}
+
+input[type=text] {
+    border-radius: 5px;
+}
+
+.input-container {
+    width: 100%;
+    align-items: center;
+}
+
+.input-container .material-icons {
+    align-items: center;
+    justify-content: center;
+}
+
+.warning {
+    background-color: grey;
+}
+
+main {
+    margin-left: 2em;
+    margin-right: 2em;
+}
+
+p.ondertitel {
+    text-transform: uppercase;
+    font-weight: 300;
+    margin-top: 1em;
+    margin: auto;
+    font-size: .7em;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+    /* maak de tekst zo smal als mogelijk */
+    font-stretch: ultra-condensed;
+    /* margin boven en onder & links en rechts */
+    margin: .25em 0;
+    line-height: 1em;
+    font-size: 1.1em;
+}
+
+h2 {
+    text-transform: uppercase;
+    margin: 0 0 .5em 0;
+    /* maak de tekst zo smal als mogelijk */
+    font-stretch: ultra-condensed;
+    font-size: 1.1em;
+}
+
+h3 {
+    font-weight: 600;
+    font-size: .85em;
+}
+
+h4 {
+    font-weight: 300;
+    /* iets meer witruimte tussen de letters in */
+    letter-spacing: .02em;
+    font-size: .7em;
+    color: grey;
+}
+
+h5 {
+    text-transform: uppercase;
+    font-weight: 300;
+    /* iets meer witruimte tussen de letters in */
+    letter-spacing: .02em;
+    margin: 0 0 1em 0;
+}
+
+h6 {
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 1.2em;
+}
+
+p {
+    font-size: .85em;
+    font-weight: 300;
+    margin: 0 0 2em 0;
+    line-height: 1.5em;
+}
+
+#more {
+    display:none;
+}
+
+#myBtn {
+    padding: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    margin-left: 5px;
+}
+
+/* H2 in eerste artikel over Shane KLuivert */
+main article:nth-of-type(1) h2 {
+    font-weight: 900;
+    text-align: left;
+}
+
+/* H3 in eerste artikel over Shane Kluivert */
+main article:nth-of-type(1) h3:nth-of-type(1) {
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: .9em;
+    color: grey;
+    /* iets meer witruimte tussen de letters in */
+    letter-spacing: .05em;
+    padding: 1em 0;
+}
+
+/* H3 in tweede artikel over meer eten & drinken */
+main article:nth-of-type(2) h3 {
+    padding-bottom: 1em;
+}
+
+/* H3 in het derde artikel over advertorials cultuursnuivers */
+main article:nth-of-type(3) h3 {
+    padding-bottom: 1.8em;
+}
+
+/* H3 in vierde artikel over meest bekeken de 'uitleg' bij afbeelding */
+.MeestBekeken h3 {
+    font-weight: 400;
+    font-size: .9em;
+    /* iets meer witruimte tussen de letters in */
+    letter-spacing: .05em;
+    line-height: 1.4em;
+    margin-bottom: 1.8em;
+}
+
+/* H4 in eerste artikel over Shane Kluivert 'tijdsaanduiding en auteur' */
+main article:nth-of-type(1) h4 {
+    text-transform: uppercase;
+    margin: 0 0 1.5em 0;
+}
+
+/* H5 in vierde artikel over meest bekeken de 'ondertitel' bij afbeelding */
+.MeestBekeken h5 {
+    letter-spacing: .05em;
+    font-size: .8em;
+    margin-bottom: .5em;
+}
+
+/* eerste p in eerste artikel over Shane Kluivert */
+main article:nth-of-type(1) p:nth-of-type(2) {
+    margin-bottom: 1em;
+}
+
+/* negende p in eerste artikel over Shane Kluivert 'lees ook' */
+main article:nth-of-type(1) p:nth-of-type(9) strong {
+    text-align: center;
+    margin-top: 2em;
+    margin-bottom: .5em;
+}
+
+/* tiende p in eerste artikel over Shane Kluivert 'link bij lees ook' */
+main article:nth-of-type(1) p:nth-of-type(10) {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 2em;
+}
+
+/* p in tweede artikel 'meer eten & drinken link' */
+main article:nth-of-type(2) p:nth-of-type(1) {
+    text-transform: uppercase;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+    font-size: 1em;
+}
+
+/* duimpjes in artikel over Shane Kluivert */
+main article:nth-of-type(1) .material-icons {
+    color: grey;
+    vertical-align: middle;
+    margin-left: .5em; margin-right: .5em;
+}
+
+/* duimpjes in artikel over Shane Kluivert aangeklikt */
+main article:nth-of-type(1) #duimOmhoog.geklikt {
+    color: green;
+}
+
+main article:nth-of-type(1) #duimOmlaag.geklikt {
+    color: red;
+}
+
+/* linkjes in tweede artikel 'meer eten & drinken' */
+main article:nth-of-type(2) a {
+    text-decoration: underline;
+    color: black;
+}
+
+/* linkjes in derde artikel 'lief & leed' */
+.index article:nth-of-type(3) a {
+    text-decoration: underline;
+    color: black;
+}
+
+/* unvisited link in eerste artikel over Shane Kluivert */
+main article:nth-of-type(1) a:link {
+    text-decoration: underline;
+    color: #8cb1f6;
+}
+
+/* visited link in eerste artikel over Shane Kluivert */
+main article:nth-of-type(1) a:visited {
+    text-decoration: underline;
+    color: #8cb1f6;
+}
+
+/* mouse over link in eerste artikel over Shane Kluivert */
+main article:nth-of-type(1) a:hover,
+a:focus {}
+
+/* selected link in eerste artikel over Shane Kluivert */
+main article:nth-of-type(1) a:active {}
+
+/* het tweede artikel */
+main article:nth-of-type(2) section {
+    display: flex;
+    align-items: flex-start;
+    padding: .25em 0;
+}
+
+/* de secties in de secties in het tweede artikel */
+main article:nth-of-type(2) section section {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+/* de eerste sectie uit het eerste 'blokje' in het tweede artikel */
+main article:nth-of-type(2) section:nth-of-type(1) section:nth-of-type(1) {
+    flex-direction: column;
+}
+
+/* de eerste sectie uit het tweede 'blokje' in het tweede artikel */
+main article:nth-of-type(2) section:nth-of-type(2) section:nth-of-type(1) {
+    flex-direction: column;
+}
+
+/* de eerste sectie uit het derde 'blokje' in het tweede artikel */
+main article:nth-of-type(2) section:nth-of-type(3) section:nth-of-type(1) {
+    flex-direction: column;
+}
+
+/* de eerste sectie uit het vierde 'blokje' in het tweede artikel */
+main article:nth-of-type(2) section:nth-of-type(4) section:nth-of-type(1) {
+    flex-direction: column;
+}
+
+/* de eerste sectie uit het vijfde 'blokje' in het tweede artikel */
+main article:nth-of-type(2) section:nth-of-type(5) section:nth-of-type(1) {
+    flex-direction: column;
+}
+
+/* de eerste sectie uit het zesde 'blokje' in het tweede artikel */
+main article:nth-of-type(2) section:nth-of-type(6) section:nth-of-type(1) {
+    flex-direction: column;
+}
+
+/* in het vierde artikel de tekst onder de foto */
+.MeestBekeken section section:nth-of-type(1) {
+    text-align: center;
+}
+
+.share {
+    padding: .5em 0;
+}
+
+/* unvisited link bij section 'share' */
+.share a:link {
+    color: black;
+    text-decoration: none;
+}
+
+/* visited link bij section 'share' */
+.share a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+/* mouse over link bij section 'share' */
+.share a:hover,
+a:focus {
+    text-decoration: none;
+}
+
+/* selected link bij section 'share' */
+.share a:active {}
+
+div {
+    display: flex;
+    overflow-x: scroll;
+}
+
+.scrollbar {
+    min-width: 78vw;
+    padding-right: 5px;
+}
+
+/* afbeelding Shane in eerste artikel */
+main article:nth-of-type(1) img {
+    width: 100%;
+    height: auto;
+}
+
+/* video over Shane in eerste artikel */
+main article:nth-of-type(1) iframe {
+    width: 100%;
+    height: auto;
+}
+
+/* afbeeldingen van facebook, whatsapp en email om te sharen */
+.share img {
+    width: 1.75em;
+    height: auto;
+    margin-right: .3em;
+}
+
+/* afbeeldingen in artikel 'meer eten & drinken */
+main article:nth-of-type(2) section:nth-of-type(2) img {
+    width: 5em;
+    height: 5em;
+}
+
+/* afbeeldingen in artikel "livestream-link" */
+main article:nth-of-type(3) img {
+    width: 100%;
+    height: auto;
+}
+
+/* afbeeldingen in artikel 'advertorials cultuursnuivers' */
+main article:nth-of-type(3) section img {
+    width: 100%;
+    height: auto;
+}
+
+/* afbeeldingen in artikel 'advertorials cultuursnuivers' */
+.advertorialsCultuursnuivers img {
+    width: 100%;
+    height: auto;
+}
+
+/* afbeeldingen in artikel 'meest bekeken' */
+.MeestBekeken section img {
+    width: 100%;
+    height: auto;
+}
+
+.posters {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: .5em;
+}
+
+.posters img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    margin-left: 2em;
+    margin-right: 2em;
+    position: static;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+footer section {
+    position: relative;
+    flex-wrap: wrap;
+    grid-template-columns: 1fr 1fr;
+}
+
+.volg-ons ul {
+    margin-bottom: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+footer h2 {
+    font-size: 1.1em;
+    margin: 1.5em 0 .25em 0;
+    text-decoration: none;
+}
+
+footer ul {
+    list-style-type: none;
+    margin: .25em 0 1.5em 0;
+}
+
+footer ul li {
+    font-weight: 300;
+    letter-spacing: .02em;
+    line-height: 1.5em;
+    text-decoration: none;
+}
+
+/* unvisited link */
+footer a:link {
+    color: black;
+    text-decoration: none;
+}
+
+/* visited link */
+footer a:visited {
+    color: black;
+    text-decoration: none;
+}
+
+/* mouse over link */
+footer a:hover,
+a:focus {
+    text-decoration: underline;
+}
+
+/* selected link */
+footer a:active {}
+
+/* unvisited link bij 'volg ons' */
+footer section:nth-of-type(1) a:link {
+    text-decoration: none;
+}
+
+/* visited link bij 'volg ons' */
+footer section:nth-of-type(1) a:visited {
+    text-decoration: none;
+}
+
+/* mouse over link bij 'volg ons' */
+footer section:nth-of-type(1) a:hover,
+a:focus {
+    color: black;
+    text-decoration: none;
+}
+
+/* selected link bij 'volg ons' */
+footer section:nth-of-type(1) a:active {}
+
+/* afbeeldingen van social media accounts in de footer */
+footer section:nth-of-type(1) img {
+    width: 1.75em;
+    height: auto;
+    margin-right: .3em;
+}
+
+.leesOok {
+    text-align: center;
+    display: inline;
+}
+
+.ShaneKluivert {
+    width: 100vw;
+}
+
+.lindaLoves {
+    width: 100vw;
+    margin-left: -2em;
+}
+
+.logo {
+    width: 45%;
+    align-content: center;
+    justify-content: center;
+    margin: 1em 0;
+}
+
+.volg-ons ul li a img {
+    width: 9vw;
+    height: auto;
+}
+
+#hartjeLeeg {
+    margin-left: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+#hartjeGevuld {
+    display: none;
+    justify-content: center;
+    align-items: center;
+    margin-left: .5em;
+}
+
+
+
+
+
+/* p in derde artikel 'lief & leed' */
+.LiefEnLeed p:nth-of-type(1) {
+    text-transform: uppercase;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 1em;
+    margin-bottom: 1.5em;
+    font-size: 1em;
+}
+
+
+/* H3 in derde artikel over meer lief & leed */
+.LiefEnLeed h3 {
+    padding-bottom: 1em;
+}
+
+/* H3 in vierde artikel over meest bekeken de 'uitleg' bij afbeelding */
+/*
+.LiefEnLeed section section h3 {
+    font-weight: 600;
+    font-size: .85em;
+    text-align: left;
+}
+*/
+
+/* linkjes in derde artikel 'meer lief & leed' */
+.LiefEnLeed a {
+    text-decoration: underline;
+    color: black;
+}
+
+/* het derde artikel index pagina*/
+.LiefEnLeed section {
+    display: flex;
+    align-items: flex-start;
+    padding: .25em 0;
+}
+
+/* de eerste secties in de secties in het derde artikel */
+.LiefEnLeed section section {
+    display: flex;
+    align-items: flex-start;
+    flex-direction: row;
+}
+
+/* de eerste sectie uit het eerste 'blokje' in het derde artikel */
+.LiefEnLeed section:nth-of-type(1) section:nth-of-type(1) {
+    flex-direction: column;
+}
+
+/* de eerste sectie uit het tweede 'blokje' in het derde artikel */
+.LiefEnLeed section:nth-of-type(2) section:nth-of-type(1) {
+    flex-direction: column;
+}
+
+/* de eerste sectie uit het derde 'blokje' in het derde artikel */
+.LiefEnLeed section:nth-of-type(3) section:nth-of-type(1) {
+    flex-direction: column;
+}
+
+/* de eerste sectie uit het vierde 'blokje' in het derde artikel */
+.LiefEnLeed section:nth-of-type(4) section:nth-of-type(1) {
+    flex-direction: column;
+}
+
+/* de eerste sectie uit het vijfde 'blokje' in het derde artikel */
+.LiefEnLeed section:nth-of-type(5) section:nth-of-type(1) {
+    flex-direction: column;
+}
+
+/* de eerste sectie uit het zesde 'blokje' in het derde artikel */
+.LiefEnLeed section:nth-of-type(6) section:nth-of-type(1) {
+    flex-direction: column;
+}
+
+/* de eerste sectie uit het zevende 'blokje' in het derde artikel */
+.LiefEnLeed section:nth-of-type(7) section:nth-of-type(1) {
+    flex-direction: column;
+}
+
+/* de eerste sectie uit het achtste 'blokje' in het derde artikel */
+.LiefEnLeed section:nth-of-type(8) section:nth-of-type(1) {
+    flex-direction: column;
+}
+
+/* afbeeldingen in artikel lief & leed */
+.LiefEnLeed section:nth-of-type(2) img {
+    width: 5em;
+    height: 5em;
+}
+
+/* het tweede artikel */
+/*
+.LiefEnLeed section {
+    display: flex;
+    align-items: flex-start;
+    padding: .25em 0;
+}
+*/
+
+/* H2 in vierde artikel met kopje meest bekeken */
+article h2 {
+    font-weight: 200;
+    /* iets meer witruimte tussen de letters in */
+    letter-spacing: .02em;
+    text-align: center;
+    padding-top: 1em;
+}

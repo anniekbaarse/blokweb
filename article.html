@@ -6,21 +6,81 @@
     <meta name="author" content="jouw naam">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Shane Kluivert brengt tweede kookboek uit en ja, daar worden wij blij van - Linda.nl</title>
+    <title>Shane Kluivert brengt tweede kookboek uit en ja, daar worden wij blij van - LINDA.nl</title>
 
     <link href="styles/style.css" rel="stylesheet">
 
     <!-- icon in de browserbalk -->
     <link rel="icon" href="images/Screenshot%202020-11-25%20at%2020.35.13.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body>
-    <header>
+   <header>
         <nav>
             <ul>
-                <li><a href=""> <img src="images/loginbutton@2x.png" alt="Account login"> </a></li>
+                <li>
+                    <!-- Bron: https://material.io/resources/icons/?icon=person&style=baseline -->
+                    <span class="material-icons" id="account">
+                        person</span>
+                    <form id="login">
+                        <span class="inlogformulier">
+                            <fieldset>
+                                <!-- Bron: https://material.io/resources/icons/?icon=clear&style=baseline -->
+                                <span class="material-icons" id="sluit"></span>
+                                <legend>Inloggen</legend>
+
+                                <span class="inloggen">
+                                    <div id="logoInlog">
+                                        <img src="images/Screenshot%202020-11-25%20at%2011.07.52.png" alt="Linda.nl logo" id="Logo">
+                                    </div>
+                                    <span class="input-container">
+
+                                        <span class="warning">
+                                            <h6>Let op!</h6>
+                                            <p>Het is niet meer mogelijk om via Facebook in te loggen bij Talpa Network. Er verandert verder niets aan je profiel. Klik <a href="">hier</a> om een nieuw wachtwoord in te stellen en gebruik te blijven maken van jouw Talpa Network profiel. Lukt dit niet of wil je meer weten? Kijk <a href="">hier</a>.
+                                            </p>
+                                        </span>
+                                        <!--Bron: https://material.io/resources/icons/?icon=mail&style=baseline -->
+                                        <span class="material-icons">
+                                            mail</span>
+                                        <input type="email" name="username" value="" placeholder="E-mailadres">
+                                    </span>
+
+                                    <span class="input-container">
+                                        <!-- https://material.io/resources/icons/?icon=lock&style=baseline -->
+                                        <span class="material-icons">
+                                            lock</span>
+                                        <input type="password" name="password" value="" placeholder="Wachtwoord">
+
+                                        <p>Oops, <a href="">wachtwoord vergeten?</a></p>
+                                    </span>
+                                </span>
+                                <span class="submitknop">
+                                    <input type="submit" value="inloggen">
+
+                                    <p>Met je profiel heb je één persoonlijke login voor alle merken van Talpa Network.</p>
+                                </span>
+                            </fieldset>
+                        </span>
+                    </form>
+                </li>
                 <li><a href="index.html"> <img src="images/Screenshot%202020-11-25%20at%2011.07.52.png" alt="Linda.nl logo"> </a></li>
-                <li><a href=""> <img src="images/search@2x.png" alt="Zoekfunctie"> </a></li>
+                <li>
+                    <!-- Bron: https://material.io/resources/icons/?icon=search&style=baseline -->
+                    <span class="material-icons" id="vergrootglas">
+                        search</span>
+
+                    <div id="zoekbalk">
+                        <input type="text" placeholder="Zoeken">
+                        <!-- Bron: https://material.io/resources/icons/?icon=search&style=baseline -->
+                        <span class="material-icons">
+                            search</span>
+                        <!-- Bron: https://material.io/resources/icons/?icon=clear&style=baseline -->
+                        <span class="material-icons" id="kruisklik">
+                            clear</span>
+                    </div>
+                </li>
             </ul>
 
             <ul>
@@ -30,7 +90,24 @@
                 <li><a href="">Shop</a></li>
                 <li><a href="">Loves</a></li>
                 <li><a href="">Meiden</a></li>
-                <li class="meerknopje"><a href="">Meer<img src="images/more-menu@2x.png" alt="Meer menu"></a></li>
+                <li><a href="">
+                        <div class="meerknopje"><button class="dropdown">Meer
+                                <!-- bron: https://material.io/resources/icons/?icon=arrow_drop_down&style=baseline -->
+                                <span class="material-icons"> arrow_drop_down</span>
+                            </button>
+                            <div class="dropdown-content">
+                                <a href="#">Nieuws</a>
+                                <a href="#">Kijken</a>
+                                <a href="#">Shop</a>
+                                <a href="#">Lief &amp; Leed</a>
+                                <a href="#">Loves</a>
+                                <a href="#">Meiden</a>
+                                <a href="#">Luisteren</a>
+                                <a href="#">Spelletjes</a>
+                                <a href="#">Over Linda.</a>
+                            </div>
+                        </div>
+                    </a></li>
             </ul>
         </nav>
     </header>
@@ -51,21 +128,42 @@
             <p>De zoon van Patrick en zijn vrouw Rossana brengt met zijn boek een ode aan de Spaanse keuken, het land waar hij met zijn ouders al een aantal jaar woont én voetbalt in de jeugdopleiding van FC Barcelona.</p>
             <p>“Ik hou ervan <a href="https://www.linda.nl/nieuws/lekker-loeren/bekend-nederland-koken-shane-kluivert/">om voor familie te koken</a>. Ik hoop dat andere mensen dat ook vaker gaan doen door mijn boek. Het is veel leuker om zelf guacamole te maken dan om het bij de supermarkt te kopen.’’</p>
 
-            <h2>Papa de keukenprins</h2>
-            <p>Vader Patrick heeft niet alleen zijn voetbaltalent doorgegeven aan Shane, maar ook zijn passie voor koken. “Ja, papa is de keukenprins. Op mijn vijfde hielp ik hem al mee in de keuken en mocht ik soms wat snijden of broodkruimels over een gerecht strooien.”</p>
+            <span id="dots">...</span>
+            <span id="more">
 
-            <p><strong>Lees ook</strong></p>
-            <p><a href="https://www.linda.nl/nieuws/lekker-loeren/bekend-nederland-koken-shane-kluivert/">Heerlijk plaatje: Shane Kluivert maakt de kip van opa voor opa</a></p>
+                <h2>Papa de keukenprins</h2>
+                <p>Vader Patrick heeft niet alleen zijn voetbaltalent doorgegeven aan Shane, maar ook zijn passie voor koken. “Ja, papa is de keukenprins. Op mijn vijfde hielp ik hem al mee in de keuken en mocht ik soms wat snijden of broodkruimels over een gerecht strooien.”</p>
 
-            <p>Qua chef koks steken Jamie Oliver en Gordon Ramsay er wat Shane betreft met kop en schouders bovenuit. Maar mocht hij moeten kiezen tussen koken en voetballen, dan is de keus snel gemaakt. “Dan ben ik liever de nieuwe Lionel Messi of Cristiano Ronaldo.”</p>
-            <p><i>Behoefte aan meer Shane? Bekijk hieronder zijn 25 favorieten. ‘Mijn lievelingsdier? De leeuw, die is in alles de baas en dat wil ik ook’:</i></p>
+                   <div class="leesOok">
+                <p><strong>Lees ook</strong></p>
+                <p><a href="https://www.linda.nl/nieuws/lekker-loeren/bekend-nederland-koken-shane-kluivert/">Heerlijk plaatje: Shane Kluivert maakt de kip van opa voor opa</a></p>
+                </div>
 
-            <!-- bron = https://www.youtube.com/watch?v=6t5R_1Z32yU -->
-            <iframe src="https://www.youtube.com/embed/6t5R_1Z32yU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <p>Qua chef koks steken Jamie Oliver en Gordon Ramsay er wat Shane betreft met kop en schouders bovenuit. Maar mocht hij moeten kiezen tussen koken en voetballen, dan is de keus snel gemaakt. “Dan ben ik liever de nieuwe Lionel Messi of Cristiano Ronaldo.”</p>
+                <p><i>Behoefte aan meer Shane? Bekijk hieronder zijn 25 favorieten. ‘Mijn lievelingsdier? De leeuw, die is in alles de baas en dat wil ik ook’:</i></p>
 
-            <h3>Foto <b>anp</b></h3>
+                <!-- bron = https://www.youtube.com/watch?v=6t5R_1Z32yU -->
+                <iframe src="https://www.youtube.com/embed/6t5R_1Z32yU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
-            <p><i>Het beste van LINDA.NL direct in je mail? <a href="https://www.linda.nl/schrijf-je-in-voor-de-linda-nl-nieuwsbrief/">Meld je aan</a> voor onze nieuwsbrief.</i></p>
+                <h3>Foto <b>anp</b></h3>
+
+                <p><i>Het beste van LINDA.NL direct in je mail? <a href="">Meld je aan</a> voor onze nieuwsbrief.</i></p>
+
+            </span> <!-- end of id="more"-->
+            <!-- Bron: https://www.w3schools.com/jsref/event_onclick.asp -->
+            <button onclick="readMore()" id="myBtn">Lees meer</button>
+
+            <!-- Bron: https://material.io/resources/icons/?icon=thumb_up&style=baseline -->
+            <span class="material-icons" id="duimOmhoog">
+                thumb_up
+            </span>
+
+            <span id="aantalDuimpjes">+9 likes</span>
+
+            <!-- Bron: https://material.io/resources/icons/?icon=thumb_down&style=baseline -->
+            <span class="material-icons" id="duimOmlaag">
+                thumb_down
+            </span>
 
         </article>
 
@@ -156,23 +254,23 @@
         <article class='advertorials cultuursnuivers'>
             <h2><b>Advertorials</b> cultuursnuivers</h2>
             <div>
-            <section class="scrollbar">
-                <img src="images/Van-abbe-e1605616586146-600x338.png" alt="Museumbezoekers raken geblinddoekt kunstwerk Picasso aan">
-                <h5>Advertorial</h5>
-                <h3>Kijktip: museumbezoekers zien Picasso aan voor 'vrouwentiet'</h3>
-            </section>
+                <section class="scrollbar">
+                    <img src="images/Van-abbe-e1605616586146-600x338.png" alt="Museumbezoekers raken geblinddoekt kunstwerk Picasso aan">
+                    <h5>Advertorial</h5>
+                    <h3>Kijktip: museumbezoekers zien Picasso aan voor 'vrouwentiet'</h3>
+                </section>
 
-            <section class="scrollbar">
-                <img src="images/Een-titel-toevoegen-2-600x338.png" alt="Een stelletje, links een man, rechts een vrouw">
-                <h5>Advertorial</h5>
-                <h3>Wat zijn we lekker uit hè: 'Kinderen maken is ook kunst'</h3>
-            </section>
+                <section class="scrollbar">
+                    <img src="images/Een-titel-toevoegen-2-600x338.png" alt="Een stelletje, links een man, rechts een vrouw">
+                    <h5>Advertorial</h5>
+                    <h3>Wat zijn we lekker uit hè: 'Kinderen maken is ook kunst'</h3>
+                </section>
 
-            <section class="scrollbar">
-                <img src="images/Schermafbeelding-2020-11-06-om-14.55.43-600x305.png" alt="2 museumbezoekers, de linker wijst naar een kunstwerk, de rechter kijkt er verbaasd naar">
-                <h5>Advertorial</h5>
-                <h3>'Brabantse gezelligheid' in het museum: 'Zelfs aangeschoten vind ik het niks</h3>
-            </section>
+                <section class="scrollbar">
+                    <img src="images/Schermafbeelding-2020-11-06-om-14.55.43-600x305.png" alt="2 museumbezoekers, de linker wijst naar een kunstwerk, de rechter kijkt er verbaasd naar">
+                    <h5>Advertorial</h5>
+                    <h3>'Brabantse gezelligheid' in het museum: 'Zelfs aangeschoten vind ik het niks</h3>
+                </section>
             </div>
         </article> <!-- end of class advertorials cultuursnuivers -->
 
@@ -180,29 +278,29 @@
         <article class='MeestBekeken'>
             <h2><b>Meest</b> bekeken</h2>
             <div>
-            <section class="scrollbar">
-                <img src="images/Schermafbeelding-2020-11-20-om-16.22.31-600x330.png" alt="Een vrouw die een cosmetische ingreep overweegt">
-                <section>
-                    <h5>Strak in m'n vel</h5>
-                    <h3>Van fillers tot wenkbrauwlift: deze vrouwen overwegen een cosmetische ingreep</h3>
+                <section class="scrollbar">
+                    <img src="images/Schermafbeelding-2020-11-20-om-16.22.31-600x330.png" alt="Een vrouw die een cosmetische ingreep overweegt">
+                    <section>
+                        <h5>Strak in m'n vel</h5>
+                        <h3>Van fillers tot wenkbrauwlift: deze vrouwen overwegen een cosmetische ingreep</h3>
+                    </section>
                 </section>
-            </section>
 
-            <section class="scrollbar">
-                <img src="images/hij-zij-thumb-julian-600x338.png" alt="Links Julian Vahle, rechts Chelsey Weimar, thumbnail: 'Wie verdient het meest'">
-                <section>
-                    <h5>Hij/zij</h5>
-                    <h3>HIJ/ZIJ met Julian Vahle en Chelsey Weimar: 'Wie wil eerder een vluggertje?'</h3>
+                <section class="scrollbar">
+                    <img src="images/hij-zij-thumb-julian-600x338.png" alt="Links Julian Vahle, rechts Chelsey Weimar, thumbnail: 'Wie verdient het meest'">
+                    <section>
+                        <h5>Hij/zij</h5>
+                        <h3>HIJ/ZIJ met Julian Vahle en Chelsey Weimar: 'Wie wil eerder een vluggertje?'</h3>
+                    </section>
                 </section>
-            </section>
 
-            <section class="scrollbar">
-                <img src="images/linda-jeroen-kerst-600x304.jpg" alt="Linda de Mol vrolijk op schoot bij vriend Jeroen">
-                <section>
-                    <h5>Backstagevideo</h5>
-                    <h3>Linda de Mol over eerste kerst met vriend Jeroen: 'Je kan wel raden wat wij hebben gedaan'</h3>
+                <section class="scrollbar">
+                    <img src="images/linda-jeroen-kerst-600x304.jpg" alt="Linda de Mol vrolijk op schoot bij vriend Jeroen">
+                    <section>
+                        <h5>Backstagevideo</h5>
+                        <h3>Linda de Mol over eerste kerst met vriend Jeroen: 'Je kan wel raden wat wij hebben gedaan'</h3>
+                    </section>
                 </section>
-            </section>
             </div>
 
         </article> <!-- end of class meest bekeken -->
@@ -229,8 +327,6 @@
                 <li><a href="https://www.linda.nl/nieuwsbrief" target="_blank"> <img src="images/icon-newsletter@2x.png" alt="E-mail icon"> </a></li>
             </ul>
         </section> <!-- end of class volg ons -->
-
-<!--        <hr />-->
 
         <section class='Nieuws'>
             <h2><a href="https://www.linda.nl/nieuws/">Nieuws</a></h2>
@@ -299,7 +395,7 @@
             </ul>
         </section> <!-- end of class over LINDA. -->
 
-<!--        <hr />-->
+        <!--        <hr />-->
 
         <section class='Magazine'>
             <h2>Magazine</h2>
@@ -343,6 +439,4 @@
     </footer>
 
     <script src="scripts/script.js"></script>
-</body>
-
-</html>
+</body></html>
