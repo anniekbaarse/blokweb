@@ -45,7 +45,7 @@ Al met al vind ik wel dat ik erg trots op mijn werk kan en mag zijn, want ik ben
 
 **Screenshot Detailpagina Linda.nl:**
 
-<img src="images/Shane Kluivert brengt tweede kookboek uit en ja, daar worden wij blij van - LINDA.nl final.jpg" width="375px" alt="Dit is een screenshot van de uiteindelijke detailpagina van mijn gemaakte website.">
+<img src="images/Detail - LINDA.nl final.jpg" width="375px" alt="Dit is een screenshot van de uiteindelijke detailpagina van mijn gemaakte website.">
 
 ## Screenreader test
 
