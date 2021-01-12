@@ -7,7 +7,7 @@ function openLogin() {
     login.classList.add('toonForm');
 }
 
-function sluitLogin () {
+function sluitLogin() {
     var formulier = document.getElementById('login');
     login.classList.remove('toonForm');
 }
@@ -36,7 +36,7 @@ function openDicht() {
     dropdowncontent.classList.add('open');
 }
 
-function dichtOpen () {
+function dichtOpen() {
     var dropdowncontent = document.getElementsByClassName('dropdown-content');
     dropdowncontent.classList.remove('open');
 }
@@ -62,39 +62,36 @@ function readMore() {
 }
 
 
-/* favorieten */
+/* duim omhoog of omlaag */
 var duimOmhoog = document.getElementById('duimOmhoog');
 var duimOmlaag = document.getElementById('duimOmlaag');
 var teller = document.getElementById('aantalDuimpjes');
 
 function duimOmhoogGeklikt() {
     duimOmhoog.classList.toggle('geklikt');
-    // zodat hartje weer leeg wordt //
+    // zodat duimpje weer leeg wordt //
     duimOmlaag.classList.remove('geklikt');
-    // kijken of het hartje gevuld is of niet //
+    // kijken of het duimpje gevuld is of niet //
 
     if (duimOmhoog.classList.contains('geklikt')) {
         teller.innerHTML = '+10 likes'
-    }
-    else {
+    } else {
         teller.innerHTML = '+9 likes'
     }
 }
 
 function duimOmlaagGeklikt() {
     duimOmlaag.classList.toggle('geklikt');
-    // zodat hartje weer leeg wordt //
+    // zodat duimpje weer leeg wordt //
     duimOmhoog.classList.remove('geklikt');
-    // kijken of het hartje gevuld is of niet //
+    // kijken of het duimpje gevuld is of niet //
 
     if (duimOmlaag.classList.contains('geklikt')) {
         teller.innerHTML = '+8 likes'
-    }
-    else {
+    } else {
         teller.innerHTML = '+9 likes'
     }
 }
-
 
 
 /* event listeners */

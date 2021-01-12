@@ -36,10 +36,11 @@ header nav ul:nth-of-type(2) {
     flex-direction: row;
     justify-content: space-between;
     overflow: scroll;
-        margin-left: 1em;
+    margin-left: 1em;
     margin-right: 1em;
 }
 
+/* de list items in de header */
 header nav ul li {
     display: flex;
     flex-direction: row;
@@ -55,6 +56,7 @@ header nav ul li {
     padding-right: .5em;
 }
 
+/* de list items in de tweede unordered list in de header */
 header nav ul:nth-of-type(2) li {
     display: flex;
     flex-direction: row;
@@ -74,6 +76,7 @@ header nav ul:nth-of-type(2) li {
     display: flex;
 }
 
+/* de dropdown in de navigatiebalk */
 button.dropdown {
     border: none;
     position: relative;
@@ -83,22 +86,22 @@ button.dropdown {
     font-weight: 200;
 }
 
+/* de inhoud van de dropdown in de navigatiebalk, die nog verborgen is */
 .meerknopje ul {
     list-style: none;
     position: fixed;
-    left: 0; right: 0;
-    top: 0; bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
 
     transform: translateX(-100%);
     transition: .5s;
 }
 
+/* de navigatiebalk wanneer deze aangeklikt wordt en dus in beeld verschijnt */
 .meerknopje .toonMenu ul {
     transform: translateX(0%);
-}
-
-.meerknopje ul li a {
-    display: block;
 }
 
 /* als dropdown open gaat */
@@ -108,36 +111,21 @@ button.dropdown {
     background-color: white;
 }
 
+/* de inhoud van de dropdown in de navigatiebalk */
 .dropdown-content {
-/*
-    display: none;
-    position: absolute;
-    min-width: 100%;
-    z-index: 1;
-*/
     position: fixed;
-    left: 0; top: 0;
+    left: 0;
+    top: 0;
     transform: translateY(-100%);
     transition: 1s;
 }
 
+/* de linkjes in de dropdown */
 .dropdown-content a {
     color: black;
     text-decoration: none;
     display: block;
     text-align: left;
-}
-
-.arrow {
-    border: solid black;
-    border-width: 0 1px 1px 0;
-    display: inline-block;
-    padding: 4px;
-}
-
-.down {
-    transform: rotate(45deg);
-    -webkit-transform: rotate(45deg);
 }
 
 /* unvisited link */
@@ -170,24 +158,29 @@ header ul li:nth-of-type(2) img {
     margin: 0 25%;
 }
 
+/* de afbeelding van het logo bij het inlogscherm */
 #logoInlog {
     width: 100%;
     height: 50%;
-
+    justify-content: center;
 }
 
+/* het logo in het inlogscherm */
 #Logo {
     width: 100%;
     justify-content: center;
 }
 
+/* formulier om in te loggen */
 form {
     position: fixed;
-    left: 0; top: 0;
+    left: 0;
+    top: 0;
     transform: translateY(-100%);
     transition: 1s;
 }
 
+/* als formulier aangeklikt wordt en in beeld komt */
 .toonForm {
     transform: translateY(0%);
     height: 100%;
@@ -195,29 +188,36 @@ form {
 
 }
 
+/* het formulier als deze in beeld is */
 .login {
     /* hierdoor komt het helemaal onderaan het formulier */
     position: absolute;
-    top: 0%%;
-    left: 0; right: 0;
+    top: 0%;
+    left: 0;
+    right: 0;
 }
 
+/* de zoekbalk in de navigatie */
 #zoekbalk {
     height: 27px;
     width: 100%;
-    left: 0; right: 0;
+    left: 0;
+    right: 0;
     background-color: #ececec;
     display: none;
     align-items: center;
 }
 
+/* zoekbalk indien geopend */
 .open-zoekbalk #zoekbalk {
     display: flex;
     align-content: flex-start;
     width: 100%;
-    left: 0; right: 0;
+    left: 0;
+    right: 0;
 }
 
+/* de inhoud van de zoekbalk */
 #zoekbalk input {
     flex-grow: 1;
     border: none;
@@ -230,22 +230,26 @@ form {
     z-index: 10;
 }
 
+/* wat er in de zoekbalk staat voordat je iets gaat typen */
 #zoekbalk input::placeholder {
     color: #949494;
     width: 100vw;
 }
 
+/* de inhoud van het formulier om in te loggen */
 fieldset {
     border: none;
     margin: 1em;
 }
 
+/* de input elementen in de inlog en zoekbalk */
 input {
     width: 90%;
     padding: 12px 20px;
     margin: 8px 0;
 }
 
+/* de input type submit in het formulier */
 input[type=submit] {
     text-transform: uppercase;
     font-weight: 900;
@@ -257,31 +261,43 @@ input[type=submit] {
     margin: 1em;
 }
 
+/* de input type text in de zoekbalk */
 input[type=text] {
     border-radius: 5px;
     display: flex;
-    left: 0; right: 0;
+    left: 0;
+    right: 0;
 }
 
+/* de inputs van het inloggen zoals email en wachtwoord */
 .input-container {
     width: 100%;
     align-items: center;
 }
 
+/* de iconen in de inputs bij het inloggen zoals email en wachtwoord */
 .input-container .material-icons {
     align-items: center;
     justify-content: center;
 }
 
+/* het kopje met 'let op' bij het inloggen */
 .warning {
-    background-color: grey;
+    display: block;
 }
+
+/* het kopje met 'wachtwoord vergeten' bij het inloggen */
+.wachtwoordVergeten {
+    text-align: end;
+}
+
 
 main {
     margin-left: 2em;
     margin-right: 2em;
 }
 
+/* de ondertitel bij het artikel over Shane Kluivert */
 p.ondertitel {
     text-transform: uppercase;
     font-weight: 300;
@@ -343,10 +359,12 @@ p {
     line-height: 1.5em;
 }
 
+/* de 'meer knop' die indien deze aangeklikt is veranderd naar 'minder' */
 #more {
-    display:none;
+    display: none;
 }
 
+/* de meerknop die met javascript wordt aangeroepen */
 #myBtn {
     padding: 5px;
     border: 1px solid black;
@@ -438,7 +456,8 @@ main article:nth-of-type(2) p:nth-of-type(1) {
 main article:nth-of-type(1) .material-icons {
     color: grey;
     vertical-align: middle;
-    margin-left: .5em; margin-right: .5em;
+    margin-left: .5em;
+    margin-right: .5em;
 }
 
 /* duimpjes in artikel over Shane Kluivert aangeklikt */
@@ -530,6 +549,7 @@ main article:nth-of-type(2) section:nth-of-type(6) section:nth-of-type(1) {
     text-align: center;
 }
 
+/* de iconen om het artikelen te delen via bijvoorbeeld social media */
 .share {
     padding: .5em 0;
 }
@@ -555,11 +575,13 @@ a:focus {
 /* selected link bij section 'share' */
 .share a:active {}
 
+/* de div in de scrollbar */
 div {
     display: flex;
     overflow-x: scroll;
 }
 
+/* de scrollbar met de artikelen erin */
 .scrollbar {
     min-width: 78vw;
     padding-right: 5px;
@@ -614,12 +636,14 @@ main article:nth-of-type(3) section img {
     height: auto;
 }
 
+/* de twee posters die naast elkaar komen te staan ergens onderaan de homepagina */
 .posters {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-column-gap: .5em;
 }
 
+/* de afbeeldingen van de posters */
 .posters img {
     width: 100%;
     height: auto;
@@ -633,12 +657,14 @@ footer {
     grid-template-columns: 1fr 1fr;
 }
 
+/* de verschillende secties in de footer. in verband met de 2 kolommen */
 footer section {
     position: relative;
     flex-wrap: wrap;
     grid-template-columns: 1fr 1fr;
 }
 
+/* de unordered list in de footer met social media accounts om te volgen */
 .volg-ons ul {
     margin-bottom: auto;
     text-align: center;
@@ -652,11 +678,13 @@ footer h2 {
     text-decoration: none;
 }
 
+/* de unordered list in de footer, wegens de 2 kolommen */
 footer ul {
     list-style-type: none;
     margin: .25em 0 1.5em 0;
 }
 
+/* de list items in de footer */
 footer ul li {
     font-weight: 300;
     letter-spacing: .02em;
@@ -712,20 +740,24 @@ footer section:nth-of-type(1) img {
     margin-right: .3em;
 }
 
+/* bij het artikel over Shane Kluivert een link naar een ander artikel met Shane Kluivert */
 .leesOok {
     text-align: center;
     display: inline;
 }
 
+/* de afbeelding van Shane Kluivert bovenaan het artikel over hem */
 .ShaneKluivert {
     width: 100vw;
 }
 
+/* de afbeelding op de homepagina van Linda. Loves die de gehele breedte van de pagina inneemt */
 .lindaLoves {
     width: 100vw;
     margin-left: -2em;
 }
 
+/* het logo van Linda.nl onderaan in de main, net boven de footer */
 .logo {
     width: 45%;
     align-content: center;
@@ -733,27 +765,11 @@ footer section:nth-of-type(1) img {
     margin: 1em 0;
 }
 
+/* de icons in de volg ons list van de social media accounts */
 .volg-ons ul li a img {
     width: 9vw;
     height: auto;
 }
-
-#hartjeLeeg {
-    margin-left: 10px;
-    justify-content: center;
-    align-items: center;
-}
-
-#hartjeGevuld {
-    display: none;
-    justify-content: center;
-    align-items: center;
-    margin-left: .5em;
-}
-
-
-
-
 
 /* p in derde artikel 'lief & leed' */
 .LiefEnLeed p:nth-of-type(1) {
@@ -765,20 +781,10 @@ footer section:nth-of-type(1) img {
     font-size: 1em;
 }
 
-
 /* H3 in derde artikel over meer lief & leed */
 .LiefEnLeed h3 {
     padding-bottom: 1em;
 }
-
-/* H3 in vierde artikel over meest bekeken de 'uitleg' bij afbeelding */
-/*
-.LiefEnLeed section section h3 {
-    font-weight: 600;
-    font-size: .85em;
-    text-align: left;
-}
-*/
 
 /* linkjes in derde artikel 'meer lief & leed' */
 .LiefEnLeed a {
@@ -845,15 +851,6 @@ footer section:nth-of-type(1) img {
     width: 5em;
     height: 5em;
 }
-
-/* het tweede artikel */
-/*
-.LiefEnLeed section {
-    display: flex;
-    align-items: flex-start;
-    padding: .25em 0;
-}
-*/
 
 /* H2 in vierde artikel met kopje meest bekeken */
 article h2 {
